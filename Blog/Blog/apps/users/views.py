@@ -11,7 +11,7 @@ from django.views import View
 class RegisterView(View):
     def get(self, request):
 
-        return HttpResponse("注册")
+        return render(request, 'register.html')
 
 
 class LogInView(View):

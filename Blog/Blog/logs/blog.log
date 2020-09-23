@@ -19,3 +19,128 @@ INFO 2020-09-23 08:18:08,393 autoreload 597 Watching for file changes with StatR
 INFO 2020-09-23 08:18:29,700 autoreload 597 Watching for file changes with StatReloader
 INFO 2020-09-23 08:18:40,797 autoreload 597 Watching for file changes with StatReloader
 INFO 2020-09-23 08:19:39,676 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-23 08:27:23,633 autoreload 217 /Users/wudada/Desktop/wu-blog/Blog/Blog/settings/dev.py changed, reloading.
+INFO 2020-09-23 08:27:24,094 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-23 08:27:27,799 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-09-23 08:27:30,373 log 228 Not Found: /
+WARNING 2020-09-23 08:27:30,373 basehttp 154 "GET / HTTP/1.1" 404 2228
+WARNING 2020-09-23 08:27:46,124 log 228 Not Found: /index.html
+WARNING 2020-09-23 08:27:46,124 basehttp 154 "GET /index.html HTTP/1.1" 404 2276
+INFO 2020-09-23 08:28:21,032 basehttp 154 "GET /static/index.html HTTP/1.1" 200 12002
+INFO 2020-09-23 08:28:21,078 basehttp 154 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 140942
+INFO 2020-09-23 08:28:21,083 basehttp 154 "GET /static/md_css/monokai.css HTTP/1.1" 200 4118
+INFO 2020-09-23 08:28:21,095 basehttp 154 "GET /static/common/common.css HTTP/1.1" 200 381
+INFO 2020-09-23 08:28:21,096 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2020-09-23 08:28:21,098 basehttp 154 "GET /static/common/jquery.pagination.css HTTP/1.1" 200 523
+INFO 2020-09-23 08:28:21,098 basehttp 154 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2020-09-23 08:28:21,100 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2020-09-23 08:28:21,119 basehttp 154 "GET /static/js/host.js HTTP/1.1" 200 35
+INFO 2020-09-23 08:28:21,122 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2020-09-23 08:28:21,125 basehttp 154 "GET /static/js/index.js HTTP/1.1" 200 530
+INFO 2020-09-23 08:28:21,128 basehttp 154 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 200 2935
+INFO 2020-09-23 08:28:21,131 basehttp 154 "GET /static/img/1.jpg HTTP/1.1" 200 78682
+INFO 2020-09-23 08:28:32,062 basehttp 154 "GET /static/detail.html HTTP/1.1" 200 8816
+INFO 2020-09-23 08:28:32,081 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 200 99487
+INFO 2020-09-23 08:28:32,093 basehttp 154 "GET /static/prism/prism.css HTTP/1.1" 200 4033
+INFO 2020-09-23 08:28:32,094 basehttp 154 "GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 200 2039
+INFO 2020-09-23 08:28:32,096 basehttp 154 "GET /static/js/detail.js HTTP/1.1" 200 1294
+INFO 2020-09-23 08:28:32,099 basehttp 154 "GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 200 690627
+INFO 2020-09-23 08:28:32,252 basehttp 154 "GET /static/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 200 338
+INFO 2020-09-23 08:28:32,265 basehttp 154 "GET /static/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 200 46921
+INFO 2020-09-23 08:28:32,266 basehttp 154 "GET /static/ckeditor/ckeditor/lang/en.js?t=I3I8 HTTP/1.1" 200 19035
+INFO 2020-09-23 08:28:32,274 basehttp 154 "GET /static/ckeditor/ckeditor/styles.js?t=I3I8 HTTP/1.1" 200 5583
+INFO 2020-09-23 08:28:32,285 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/codesnippet/plugin.js?t=I3I8 HTTP/1.1" 200 3824
+INFO 2020-09-23 08:28:32,286 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/prism/plugin.js?t=I3I8 HTTP/1.1" 200 4333
+INFO 2020-09-23 08:28:32,297 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/scayt/dialogs/dialog.css HTTP/1.1" 200 419
+INFO 2020-09-23 08:28:32,298 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/tableselection/styles/tableselection.css HTTP/1.1" 200 1082
+INFO 2020-09-23 08:28:32,299 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css HTTP/1.1" 200 381
+INFO 2020-09-23 08:28:32,299 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css HTTP/1.1" 200 1306
+INFO 2020-09-23 08:28:32,302 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/codesnippet/lang/en.js?t=I3I8 HTTP/1.1" 200 369
+INFO 2020-09-23 08:28:32,312 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/copyformatting/styles/copyformatting.css HTTP/1.1" 200 1513
+INFO 2020-09-23 08:28:32,339 basehttp 154 "GET /static/ckeditor/ckeditor/skins/moono-lisa/icons.png?t=95e5d83 HTTP/1.1" 200 12421
+INFO 2020-09-23 08:28:32,340 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/codesnippet/icons/codesnippet.png?t=I3I8 HTTP/1.1" 200 597
+INFO 2020-09-23 08:28:32,353 basehttp 154 "GET /static/ckeditor/ckeditor/contents.css?t=I3I8 HTTP/1.1" 200 2954
+INFO 2020-09-23 08:28:32,354 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.css HTTP/1.1" 200 2063
+INFO 2020-09-23 08:28:41,834 basehttp 154 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2020-09-23 08:28:41,846 basehttp 154 "GET /static/common/common.css HTTP/1.1" 304 0
+INFO 2020-09-23 08:28:41,850 basehttp 154 "GET /static/common/jquery.pagination.css HTTP/1.1" 304 0
+INFO 2020-09-23 08:28:41,852 basehttp 154 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2020-09-23 08:28:41,852 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2020-09-23 08:28:41,853 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2020-09-23 08:28:41,854 basehttp 154 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2020-09-23 08:28:41,854 basehttp 154 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+INFO 2020-09-23 08:28:41,855 basehttp 154 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 304 0
+INFO 2020-09-23 08:32:15,986 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-09-23 08:32:51,665 basehttp 154 "GET /static/register HTTP/1.1" 404 1648
+WARNING 2020-09-23 08:33:03,390 log 228 Not Found: /
+WARNING 2020-09-23 08:33:03,390 basehttp 154 "GET / HTTP/1.1" 404 2228
+INFO 2020-09-23 08:33:12,046 basehttp 154 "GET /register HTTP/1.1" 301 0
+INFO 2020-09-23 08:33:12,059 basehttp 154 "GET /register/ HTTP/1.1" 200 5217
+INFO 2020-09-23 08:33:12,081 basehttp 154 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2020-09-23 08:33:12,087 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2020-09-23 08:33:12,088 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2020-09-23 08:33:12,098 basehttp 154 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2020-09-23 08:33:12,102 basehttp 154 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2020-09-23 08:33:12,107 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 6407
+INFO 2020-09-23 08:33:12,116 basehttp 154 "GET /static/img/image_code.png HTTP/1.1" 200 3483
+INFO 2020-09-23 08:42:21,651 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-23 08:42:26,551 basehttp 154 "GET /register/ HTTP/1.1" 200 5220
+INFO 2020-09-23 08:42:26,574 basehttp 154 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2020-09-23 08:42:26,574 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2020-09-23 08:42:26,575 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2020-09-23 08:42:26,579 basehttp 154 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2020-09-23 08:42:26,582 basehttp 154 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2020-09-23 08:42:26,589 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2020-09-23 08:42:26,590 basehttp 154 "GET /static/img/image_code.png HTTP/1.1" 304 0
+INFO 2020-09-23 08:42:27,320 basehttp 154 "GET /register/ HTTP/1.1" 200 5220
+INFO 2020-09-23 08:42:27,518 basehttp 154 "GET /register/ HTTP/1.1" 200 5220
+INFO 2020-09-23 08:42:27,711 basehttp 154 "GET /register/ HTTP/1.1" 200 5220
+INFO 2020-09-23 08:42:27,894 basehttp 154 "GET /register/ HTTP/1.1" 200 5220
+INFO 2020-09-23 08:42:28,079 basehttp 154 "GET /register/ HTTP/1.1" 200 5220
+INFO 2020-09-23 08:42:28,236 basehttp 154 "GET /register/ HTTP/1.1" 200 5220
+INFO 2020-09-23 08:42:28,420 basehttp 154 "GET /register/ HTTP/1.1" 200 5220
+INFO 2020-09-23 08:42:28,595 basehttp 154 "GET /register/ HTTP/1.1" 200 5220
+INFO 2020-09-23 08:42:28,778 basehttp 154 "GET /register/ HTTP/1.1" 200 5220
+INFO 2020-09-23 08:42:28,963 basehttp 154 "GET /register/ HTTP/1.1" 200 5220
+INFO 2020-09-23 08:42:29,158 basehttp 154 "GET /register/ HTTP/1.1" 200 5220
+INFO 2020-09-23 08:42:29,359 basehttp 154 "GET /register/ HTTP/1.1" 200 5220
+INFO 2020-09-23 08:43:11,801 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-23 08:43:17,573 basehttp 154 "GET /register/ HTTP/1.1" 200 5217
+INFO 2020-09-23 08:43:18,279 basehttp 154 "GET /register/ HTTP/1.1" 200 5217
+INFO 2020-09-23 08:43:18,459 basehttp 154 "GET /register/ HTTP/1.1" 200 5217
+INFO 2020-09-23 09:12:36,586 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-23 09:14:01,398 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-23 09:14:06,573 basehttp 154 "GET /register/ HTTP/1.1" 200 5352
+INFO 2020-09-23 09:14:06,592 basehttp 154 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2020-09-23 09:14:06,598 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2020-09-23 09:14:06,600 basehttp 154 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2020-09-23 09:14:06,602 basehttp 154 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2020-09-23 09:14:06,602 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2020-09-23 09:14:06,603 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2020-09-23 09:14:06,652 basehttp 154 "GET /imagecode/?uuid=9316a07a-c9bd-4f91-9f84-fb84e3894da0 HTTP/1.1" 200 3559
+INFO 2020-09-23 09:14:07,944 basehttp 154 "GET /imagecode/?uuid=5f3aa24d-f492-47fa-a59a-7f02b3a92d11 HTTP/1.1" 200 3274
+INFO 2020-09-23 09:14:08,513 basehttp 154 "GET /imagecode/?uuid=7dc3394b-5b62-442a-b099-d51bba06643a HTTP/1.1" 200 2627
+INFO 2020-09-23 09:14:08,824 basehttp 154 "GET /imagecode/?uuid=f0713d34-ee40-4b63-9c4c-1dfe4cea9f46 HTTP/1.1" 200 3549
+INFO 2020-09-23 09:14:09,016 basehttp 154 "GET /imagecode/?uuid=ec81b0f0-d95d-4897-836b-99e9389e48ae HTTP/1.1" 200 2859
+INFO 2020-09-23 09:14:09,200 basehttp 154 "GET /imagecode/?uuid=10a5f933-5032-4119-8d45-f7cf2e7fef5b HTTP/1.1" 200 3185
+INFO 2020-09-23 09:14:09,432 basehttp 154 "GET /imagecode/?uuid=29cfe992-8155-42b2-9526-906b037d2088 HTTP/1.1" 200 3343
+INFO 2020-09-23 09:14:09,625 basehttp 154 "GET /imagecode/?uuid=be73fd2d-5894-4f34-b518-415da6b191ef HTTP/1.1" 200 2942
+INFO 2020-09-23 09:14:09,799 basehttp 154 "GET /imagecode/?uuid=abbe10b1-dbc8-4b3f-b05c-5598d5f88846 HTTP/1.1" 200 3211
+INFO 2020-09-23 09:14:09,992 basehttp 154 "GET /imagecode/?uuid=3a2ee84b-63d7-4833-b538-6c4d4f923372 HTTP/1.1" 200 3375
+INFO 2020-09-23 09:14:10,176 basehttp 154 "GET /imagecode/?uuid=fd0c89d4-160f-47f8-b576-cdb91d5005ec HTTP/1.1" 200 2942
+INFO 2020-09-23 09:14:10,352 basehttp 154 "GET /imagecode/?uuid=96cf7654-155d-4a9c-8316-8f489c4c4a9d HTTP/1.1" 200 3266
+INFO 2020-09-23 09:14:10,536 basehttp 154 "GET /imagecode/?uuid=092c784c-71c2-48f6-b57b-c7f8c8b9f3be HTTP/1.1" 200 2933
+INFO 2020-09-23 09:14:10,729 basehttp 154 "GET /imagecode/?uuid=2d7d4bc9-d3d5-4c78-af61-816bf9ce15fd HTTP/1.1" 200 3188
+INFO 2020-09-23 09:14:10,913 basehttp 154 "GET /imagecode/?uuid=de2fdfdd-3180-449f-aeb4-adeb9ee3fa3c HTTP/1.1" 200 3508
+INFO 2020-09-23 09:14:11,105 basehttp 154 "GET /imagecode/?uuid=6d05b6be-04d3-4cc5-a50c-b1f38760d4bd HTTP/1.1" 200 2559
+INFO 2020-09-23 09:14:11,720 basehttp 154 "GET /imagecode/?uuid=f69b3ab9-513c-491e-83f8-7c02c357ba2c HTTP/1.1" 200 3144
+INFO 2020-09-23 09:14:12,169 basehttp 154 "GET /imagecode/?uuid=db44cebc-53a3-4f28-b0df-ee011a553bf9 HTTP/1.1" 200 3191
+INFO 2020-09-23 09:14:12,584 basehttp 154 "GET /imagecode/?uuid=6ceb7cea-c297-49f7-9eb4-d2dd14764457 HTTP/1.1" 200 3204
+INFO 2020-09-23 09:14:13,152 basehttp 154 "GET /imagecode/?uuid=aaae4139-80cc-4234-9a4b-26ae3bc79c4b HTTP/1.1" 200 3312
+INFO 2020-09-23 09:14:13,336 basehttp 154 "GET /imagecode/?uuid=b3170c2d-8645-4b25-9aa4-f17a36543bdb HTTP/1.1" 200 3443
+INFO 2020-09-23 09:14:13,521 basehttp 154 "GET /imagecode/?uuid=ac30d00e-e44a-495e-8992-71e92e73ce8e HTTP/1.1" 200 3330
+INFO 2020-09-23 09:14:13,687 basehttp 154 "GET /imagecode/?uuid=0b1abc7c-a1ec-4418-ae23-ddacfb11b954 HTTP/1.1" 200 3095
+INFO 2020-09-23 09:14:13,897 basehttp 154 "GET /imagecode/?uuid=d2ebde2e-6144-4dff-ad08-29fb3b201bcd HTTP/1.1" 200 3250
+INFO 2020-09-23 09:14:14,560 basehttp 154 "GET /imagecode/?uuid=064c38ff-7d55-4c51-bef4-92226bea2f7e HTTP/1.1" 200 3237
+INFO 2020-09-23 09:14:14,745 basehttp 154 "GET /imagecode/?uuid=b5628e21-aef0-4b14-835c-bafbcdfeced7 HTTP/1.1" 200 3339
+INFO 2020-09-23 09:14:14,937 basehttp 154 "GET /imagecode/?uuid=57aaef1d-472f-403a-8520-4fbdfda07531 HTTP/1.1" 200 3403
