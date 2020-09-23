@@ -8,10 +8,8 @@
 @python：3.6.8
 '''
 from django.conf.urls import url
-from Verification.views import ImageCodeView, SMSCodeView
-
+from home.views import IndexView
 urlpatterns = [
+    url('', IndexView.as_view(), name='index')
 
-    url(r"imagecode/", ImageCodeView.as_view()),
-    url(r"smscode/", SMSCodeView.as_view()),
 ]
