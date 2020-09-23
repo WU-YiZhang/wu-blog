@@ -78,6 +78,5 @@ class RegisterView(View):
 
 class LogInView(View):
 
-    def post(self, request):
-
-        return HttpResponse("登录")
+    def get(self, request):
+        return render(request, 'login.html')

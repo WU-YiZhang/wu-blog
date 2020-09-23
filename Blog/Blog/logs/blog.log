@@ -144,3 +144,830 @@ INFO 2020-09-23 09:14:13,897 basehttp 154 "GET /imagecode/?uuid=d2ebde2e-6144-4d
 INFO 2020-09-23 09:14:14,560 basehttp 154 "GET /imagecode/?uuid=064c38ff-7d55-4c51-bef4-92226bea2f7e HTTP/1.1" 200 3237
 INFO 2020-09-23 09:14:14,745 basehttp 154 "GET /imagecode/?uuid=b5628e21-aef0-4b14-835c-bafbcdfeced7 HTTP/1.1" 200 3339
 INFO 2020-09-23 09:14:14,937 basehttp 154 "GET /imagecode/?uuid=57aaef1d-472f-403a-8520-4fbdfda07531 HTTP/1.1" 200 3403
+INFO 2020-09-23 09:17:44,962 basehttp 154 "GET /imagecode/?uuid=36e57a33-6ba5-4e54-85cb-36e37101b97e HTTP/1.1" 200 3262
+INFO 2020-09-23 09:17:45,586 basehttp 154 "GET /imagecode/?uuid=fd2d297d-c7f4-41bf-87c2-fac6e3b96b12 HTTP/1.1" 200 3267
+INFO 2020-09-23 09:17:46,147 basehttp 154 "GET /imagecode/?uuid=64aa0dc3-8fca-4c0d-93ee-8739d1d40521 HTTP/1.1" 200 3159
+INFO 2020-09-23 09:17:55,906 basehttp 154 "GET /imagecode/?uuid=3c14cb0b-b175-4a19-a819-989ab4124fbd HTTP/1.1" 200 2929
+INFO 2020-09-23 09:50:50,317 autoreload 217 /Users/wudada/Desktop/wu-blog/Blog/Blog/apps/Verification/views.py changed, reloading.
+INFO 2020-09-23 09:50:50,802 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-23 09:52:19,755 autoreload 217 /Users/wudada/Desktop/wu-blog/Blog/Blog/apps/Verification/views.py changed, reloading.
+INFO 2020-09-23 09:52:20,267 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-23 09:53:35,799 autoreload 217 /Users/wudada/Desktop/wu-blog/Blog/Blog/apps/Verification/views.py changed, reloading.
+INFO 2020-09-23 09:53:36,252 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-23 10:02:34,434 autoreload 217 /Users/wudada/Desktop/wu-blog/Blog/Blog/apps/Verification/views.py changed, reloading.
+INFO 2020-09-23 10:02:34,922 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-23 10:12:14,787 autoreload 217 /Users/wudada/Desktop/wu-blog/Blog/Blog/apps/Verification/views.py changed, reloading.
+INFO 2020-09-23 10:12:15,217 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-23 10:12:40,052 autoreload 217 /Users/wudada/Desktop/wu-blog/Blog/Blog/apps/Verification/views.py changed, reloading.
+INFO 2020-09-23 10:12:40,543 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-23 10:13:22,550 autoreload 217 /Users/wudada/Desktop/wu-blog/Blog/Blog/apps/Verification/views.py changed, reloading.
+INFO 2020-09-23 10:13:22,977 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-23 10:21:24,595 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-23 10:21:32,864 basehttp 154 "GET /register/ HTTP/1.1" 200 5352
+INFO 2020-09-23 10:21:32,891 basehttp 154 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2020-09-23 10:21:32,904 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2020-09-23 10:21:32,909 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2020-09-23 10:21:32,909 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2020-09-23 10:21:32,910 basehttp 154 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2020-09-23 10:21:32,911 basehttp 154 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2020-09-23 10:21:33,065 basehttp 154 "GET /imagecode/?uuid=6e996a7d-c85b-4e21-8cd1-dbaa8e5792e3 HTTP/1.1" 200 3426
+INFO 2020-09-23 10:21:35,332 basehttp 154 "GET /imagecode/?uuid=0d8b600c-c6f2-4961-b1c5-4505792873c0 HTTP/1.1" 200 3150
+INFO 2020-09-23 10:22:13,931 basehttp 154 "GET /imagecode/?uuid=b32ebbe2-699e-47ee-acf0-a9856eceb991 HTTP/1.1" 200 3382
+INFO 2020-09-23 10:22:24,174 basehttp 154 "GET /smscode/?mobile=13635192508&image_code=dn9u&uuid=b32ebbe2-699e-47ee-acf0-a9856eceb991 HTTP/1.1" 200 69
+INFO 2020-09-23 10:22:24,187 basehttp 154 "GET /imagecode/?uuid=9f97d329-ce33-4121-961e-5077cf026b4a HTTP/1.1" 200 3252
+INFO 2020-09-23 10:22:28,157 basehttp 154 "GET /smscode/?mobile=13635192508&image_code=dn9u&uuid=9f97d329-ce33-4121-961e-5077cf026b4a HTTP/1.1" 200 69
+INFO 2020-09-23 10:22:28,167 basehttp 154 "GET /imagecode/?uuid=d589e88a-7257-4e4e-8e32-c217267eb1cb HTTP/1.1" 200 3477
+INFO 2020-09-23 10:24:46,180 basehttp 154 "GET /imagecode/?uuid=885062d5-8caa-4aa3-b7bd-edac128334e2 HTTP/1.1" 200 3459
+INFO 2020-09-23 10:24:46,395 basehttp 154 "GET /imagecode/?uuid=8a39847e-4cde-40a4-bece-12cf4d6a2a1a HTTP/1.1" 200 3251
+INFO 2020-09-23 14:37:40,377 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-09-23 14:38:18,066 base 102 Method Not Allowed (GET): /register/
+WARNING 2020-09-23 14:38:18,068 log 228 Method Not Allowed: /register/
+WARNING 2020-09-23 14:38:18,069 basehttp 154 "GET /register/ HTTP/1.1" 405 0
+WARNING 2020-09-23 14:38:44,733 basehttp 154 "GET /static/register/ HTTP/1.1" 404 1752
+WARNING 2020-09-23 14:38:44,806 log 228 Not Found: /favicon.ico
+WARNING 2020-09-23 14:38:44,807 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2591
+WARNING 2020-09-23 15:00:08,047 base 102 Method Not Allowed (GET): /user/register/
+WARNING 2020-09-23 15:00:08,048 log 228 Method Not Allowed: /user/register/
+WARNING 2020-09-23 15:00:08,048 basehttp 154 "GET /user/register/ HTTP/1.1" 405 0
+INFO 2020-09-23 15:00:16,405 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-09-23 15:00:19,560 base 102 Method Not Allowed (GET): /user/register/
+WARNING 2020-09-23 15:00:19,562 log 228 Method Not Allowed: /user/register/
+WARNING 2020-09-23 15:00:19,562 basehttp 154 "GET /user/register/ HTTP/1.1" 405 0
+WARNING 2020-09-23 15:00:41,177 log 228 Not Found: /index.html
+WARNING 2020-09-23 15:00:41,177 basehttp 154 "GET /index.html HTTP/1.1" 404 2588
+WARNING 2020-09-23 15:00:47,931 log 228 Not Found: /user/index.html
+WARNING 2020-09-23 15:00:47,932 basehttp 154 "GET /user/index.html HTTP/1.1" 404 2603
+WARNING 2020-09-23 15:01:20,258 base 102 Method Not Allowed (GET): /users/register/
+WARNING 2020-09-23 15:01:20,259 log 228 Method Not Allowed: /users/register/
+WARNING 2020-09-23 15:01:20,259 basehttp 154 "GET /users/register/ HTTP/1.1" 405 0
+WARNING 2020-09-23 15:01:40,207 base 102 Method Not Allowed (GET): /register/
+WARNING 2020-09-23 15:01:40,207 log 228 Method Not Allowed: /register/
+WARNING 2020-09-23 15:01:40,208 basehttp 154 "GET /register/ HTTP/1.1" 405 0
+WARNING 2020-09-23 15:01:42,485 base 102 Method Not Allowed (GET): /register/
+WARNING 2020-09-23 15:01:42,486 log 228 Method Not Allowed: /register/
+WARNING 2020-09-23 15:01:42,486 basehttp 154 "GET /register/ HTTP/1.1" 405 0
+WARNING 2020-09-23 15:03:19,184 log 228 Not Found: /index.html
+WARNING 2020-09-23 15:03:19,184 basehttp 154 "GET /index.html HTTP/1.1" 404 2588
+INFO 2020-09-23 15:04:54,398 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-23 15:05:42,563 basehttp 154 "GET /users/register/ HTTP/1.1" 200 5494
+WARNING 2020-09-23 15:05:42,598 log 228 Not Found: /users/static/js/axios-0.18.0.min.js
+WARNING 2020-09-23 15:05:42,599 basehttp 154 "GET /users/static/js/axios-0.18.0.min.js HTTP/1.1" 404 2663
+WARNING 2020-09-23 15:05:42,602 log 228 Not Found: /users/static/js/host.js
+WARNING 2020-09-23 15:05:42,604 log 228 Not Found: /users/static/bootstrap/css/bootstrap.min.css
+WARNING 2020-09-23 15:05:42,605 basehttp 154 "GET /users/static/js/host.js HTTP/1.1" 404 2627
+WARNING 2020-09-23 15:05:42,607 log 228 Not Found: /users/static/js/vue-2.5.16.js
+WARNING 2020-09-23 15:05:42,608 basehttp 154 "GET /users/static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 2690
+WARNING 2020-09-23 15:05:42,610 log 228 Not Found: /users/static/js/register.js
+WARNING 2020-09-23 15:05:42,612 log 228 Not Found: /users/static/js/common.js
+WARNING 2020-09-23 15:05:42,612 basehttp 154 "GET /users/static/js/vue-2.5.16.js HTTP/1.1" 404 2645
+WARNING 2020-09-23 15:05:42,613 basehttp 154 "GET /users/static/js/common.js HTTP/1.1" 404 2633
+WARNING 2020-09-23 15:05:42,614 basehttp 154 "GET /users/static/js/register.js HTTP/1.1" 404 2639
+WARNING 2020-09-23 15:05:42,621 log 228 Not Found: /users/static/js/axios-0.18.0.min.js
+WARNING 2020-09-23 15:05:42,621 basehttp 154 "GET /users/static/js/axios-0.18.0.min.js HTTP/1.1" 404 2663
+WARNING 2020-09-23 15:05:42,657 log 228 Not Found: /users/static/js/host.js
+WARNING 2020-09-23 15:05:42,657 basehttp 154 "GET /users/static/js/host.js HTTP/1.1" 404 2627
+WARNING 2020-09-23 15:05:42,671 log 228 Not Found: /users/static/js/common.js
+WARNING 2020-09-23 15:05:42,671 basehttp 154 "GET /users/static/js/common.js HTTP/1.1" 404 2633
+WARNING 2020-09-23 15:05:42,678 log 228 Not Found: /users/static/js/register.js
+WARNING 2020-09-23 15:05:42,678 basehttp 154 "GET /users/static/js/register.js HTTP/1.1" 404 2639
+INFO 2020-09-23 15:05:51,964 basehttp 154 "GET /users/register/ HTTP/1.1" 200 5494
+WARNING 2020-09-23 15:05:51,997 log 228 Not Found: /users/static/js/vue-2.5.16.js
+WARNING 2020-09-23 15:05:52,000 log 228 Not Found: /users/static/js/axios-0.18.0.min.js
+WARNING 2020-09-23 15:05:52,000 basehttp 154 "GET /users/static/js/vue-2.5.16.js HTTP/1.1" 404 2645
+WARNING 2020-09-23 15:05:52,001 basehttp 154 "GET /users/static/js/axios-0.18.0.min.js HTTP/1.1" 404 2663
+WARNING 2020-09-23 15:05:52,002 log 228 Not Found: /users/static/js/register.js
+WARNING 2020-09-23 15:05:52,003 basehttp 154 "GET /users/static/js/register.js HTTP/1.1" 404 2639
+WARNING 2020-09-23 15:05:52,005 log 228 Not Found: /users/static/bootstrap/css/bootstrap.min.css
+WARNING 2020-09-23 15:05:52,007 log 228 Not Found: /users/static/js/host.js
+WARNING 2020-09-23 15:05:52,008 basehttp 154 "GET /users/static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 2690
+WARNING 2020-09-23 15:05:52,008 basehttp 154 "GET /users/static/js/host.js HTTP/1.1" 404 2627
+WARNING 2020-09-23 15:05:52,010 log 228 Not Found: /users/static/js/common.js
+WARNING 2020-09-23 15:05:52,014 basehttp 154 "GET /users/static/js/common.js HTTP/1.1" 404 2633
+WARNING 2020-09-23 15:05:52,016 log 228 Not Found: /users/static/js/axios-0.18.0.min.js
+WARNING 2020-09-23 15:05:52,016 basehttp 154 "GET /users/static/js/axios-0.18.0.min.js HTTP/1.1" 404 2663
+WARNING 2020-09-23 15:05:52,031 log 228 Not Found: /users/static/js/host.js
+WARNING 2020-09-23 15:05:52,031 basehttp 154 "GET /users/static/js/host.js HTTP/1.1" 404 2627
+WARNING 2020-09-23 15:05:52,056 log 228 Not Found: /users/static/js/common.js
+WARNING 2020-09-23 15:05:52,056 basehttp 154 "GET /users/static/js/common.js HTTP/1.1" 404 2633
+WARNING 2020-09-23 15:05:52,064 log 228 Not Found: /users/static/js/register.js
+WARNING 2020-09-23 15:05:52,065 basehttp 154 "GET /users/static/js/register.js HTTP/1.1" 404 2639
+INFO 2020-09-23 15:05:52,661 basehttp 154 "GET /users/register/ HTTP/1.1" 200 5494
+WARNING 2020-09-23 15:05:52,693 log 228 Not Found: /users/static/bootstrap/css/bootstrap.min.css
+WARNING 2020-09-23 15:05:52,697 log 228 Not Found: /users/static/js/register.js
+WARNING 2020-09-23 15:05:52,699 log 228 Not Found: /users/static/js/axios-0.18.0.min.js
+WARNING 2020-09-23 15:05:52,699 basehttp 154 "GET /users/static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 2690
+WARNING 2020-09-23 15:05:52,702 log 228 Not Found: /users/static/js/vue-2.5.16.js
+WARNING 2020-09-23 15:05:52,704 log 228 Not Found: /users/static/js/common.js
+WARNING 2020-09-23 15:05:52,704 basehttp 154 "GET /users/static/js/register.js HTTP/1.1" 404 2639
+WARNING 2020-09-23 15:05:52,704 basehttp 154 "GET /users/static/js/axios-0.18.0.min.js HTTP/1.1" 404 2663
+WARNING 2020-09-23 15:05:52,706 basehttp 154 "GET /users/static/js/common.js HTTP/1.1" 404 2633
+WARNING 2020-09-23 15:05:52,707 basehttp 154 "GET /users/static/js/vue-2.5.16.js HTTP/1.1" 404 2645
+WARNING 2020-09-23 15:05:52,709 log 228 Not Found: /users/static/js/host.js
+WARNING 2020-09-23 15:05:52,711 basehttp 154 "GET /users/static/js/host.js HTTP/1.1" 404 2627
+WARNING 2020-09-23 15:05:52,714 log 228 Not Found: /users/static/js/axios-0.18.0.min.js
+WARNING 2020-09-23 15:05:52,714 basehttp 154 "GET /users/static/js/axios-0.18.0.min.js HTTP/1.1" 404 2663
+WARNING 2020-09-23 15:05:52,726 log 228 Not Found: /users/static/js/host.js
+WARNING 2020-09-23 15:05:52,727 basehttp 154 "GET /users/static/js/host.js HTTP/1.1" 404 2627
+WARNING 2020-09-23 15:05:52,738 log 228 Not Found: /users/static/js/common.js
+WARNING 2020-09-23 15:05:52,738 basehttp 154 "GET /users/static/js/common.js HTTP/1.1" 404 2633
+WARNING 2020-09-23 15:05:52,756 log 228 Not Found: /users/static/js/register.js
+WARNING 2020-09-23 15:05:52,756 basehttp 154 "GET /users/static/js/register.js HTTP/1.1" 404 2639
+INFO 2020-09-23 15:05:52,836 basehttp 154 "GET /users/register/ HTTP/1.1" 200 5494
+WARNING 2020-09-23 15:05:52,872 log 228 Not Found: /users/static/js/vue-2.5.16.js
+WARNING 2020-09-23 15:05:52,874 log 228 Not Found: /users/static/bootstrap/css/bootstrap.min.css
+WARNING 2020-09-23 15:05:52,874 basehttp 154 "GET /users/static/js/vue-2.5.16.js HTTP/1.1" 404 2645
+WARNING 2020-09-23 15:05:52,877 log 228 Not Found: /users/static/js/register.js
+WARNING 2020-09-23 15:05:52,877 basehttp 154 "GET /users/static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 2690
+WARNING 2020-09-23 15:05:52,878 log 228 Not Found: /users/static/js/common.js
+WARNING 2020-09-23 15:05:52,883 log 228 Not Found: /users/static/js/axios-0.18.0.min.js
+WARNING 2020-09-23 15:05:52,884 basehttp 154 "GET /users/static/js/register.js HTTP/1.1" 404 2639
+WARNING 2020-09-23 15:05:52,886 log 228 Not Found: /users/static/js/host.js
+WARNING 2020-09-23 15:05:52,886 basehttp 154 "GET /users/static/js/common.js HTTP/1.1" 404 2633
+WARNING 2020-09-23 15:05:52,887 basehttp 154 "GET /users/static/js/axios-0.18.0.min.js HTTP/1.1" 404 2663
+WARNING 2020-09-23 15:05:52,888 basehttp 154 "GET /users/static/js/host.js HTTP/1.1" 404 2627
+WARNING 2020-09-23 15:05:52,907 log 228 Not Found: /users/static/js/common.js
+WARNING 2020-09-23 15:05:52,909 basehttp 154 "GET /users/static/js/common.js HTTP/1.1" 404 2633
+WARNING 2020-09-23 15:05:52,929 log 228 Not Found: /users/static/js/register.js
+WARNING 2020-09-23 15:05:52,930 basehttp 154 "GET /users/static/js/register.js HTTP/1.1" 404 2639
+INFO 2020-09-23 15:06:15,466 basehttp 154 "GET /register/ HTTP/1.1" 200 5494
+INFO 2020-09-23 15:06:15,493 basehttp 154 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2020-09-23 15:06:15,494 basehttp 154 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2020-09-23 15:06:15,495 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2020-09-23 15:06:15,496 basehttp 154 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2020-09-23 15:06:15,496 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2020-09-23 15:06:15,498 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2020-09-23 15:06:15,605 basehttp 154 "GET /imagecode/?uuid=2108874d-7f31-485b-9086-8c4c93d6c466 HTTP/1.1" 200 3082
+INFO 2020-09-23 15:06:39,021 basehttp 154 "GET /imagecode/?uuid=594d0ebf-950c-47d1-8805-f2a9d3c2f1e0 HTTP/1.1" 200 3201
+INFO 2020-09-23 15:06:45,273 views 75 699805
+INFO 2020-09-23 15:06:46,151 basehttp 154 "GET /smscode/?mobile=13635192508&image_code=nhmw&uuid=594d0ebf-950c-47d1-8805-f2a9d3c2f1e0 HTTP/1.1" 200 31
+INFO 2020-09-23 15:06:46,165 basehttp 154 "GET /imagecode/?uuid=66fd2221-a937-4774-ad06-9f0089f90c71 HTTP/1.1" 200 3168
+INFO 2020-09-23 15:06:59,056 basehttp 154 "POST /register/ HTTP/1.1" 200 33
+INFO 2020-09-23 15:09:20,778 autoreload 217 /Users/wudada/Desktop/wu-blog/Blog/Blog/libs/yuntongxun/sms.py changed, reloading.
+INFO 2020-09-23 15:09:21,179 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-23 15:10:38,951 autoreload 217 /Users/wudada/Desktop/wu-blog/Blog/Blog/libs/yuntongxun/sms.py changed, reloading.
+INFO 2020-09-23 15:10:39,356 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-23 15:11:21,608 basehttp 154 "GET /register/ HTTP/1.1" 200 5494
+INFO 2020-09-23 15:11:21,703 basehttp 154 "GET /imagecode/?uuid=297852b6-7963-42e4-97e0-83eb80cab992 HTTP/1.1" 200 3166
+INFO 2020-09-23 15:11:47,334 basehttp 154 "GET /imagecode/?uuid=d7f0c3cc-631a-48cc-9189-43b87bda1148 HTTP/1.1" 200 3121
+INFO 2020-09-23 15:11:47,863 basehttp 154 "GET /imagecode/?uuid=fb3f4c18-f6cc-425f-82d3-5fb3b3637655 HTTP/1.1" 200 3013
+INFO 2020-09-23 15:12:00,146 views 75 139608
+INFO 2020-09-23 15:12:00,476 basehttp 154 "GET /smscode/?mobile=17666101700&image_code=nhfi&uuid=fb3f4c18-f6cc-425f-82d3-5fb3b3637655 HTTP/1.1" 200 31
+INFO 2020-09-23 15:12:00,491 basehttp 154 "GET /imagecode/?uuid=f6870b96-8113-4527-bf6c-f0574bf59090 HTTP/1.1" 200 3397
+INFO 2020-09-23 15:12:02,343 basehttp 154 "GET /imagecode/?uuid=2692ce67-5e8c-4adb-9fef-e5509208b492 HTTP/1.1" 200 3097
+INFO 2020-09-23 15:12:08,752 views 75 414447
+INFO 2020-09-23 15:12:09,141 basehttp 154 "GET /smscode/?mobile=17666101700&image_code=knpj&uuid=2692ce67-5e8c-4adb-9fef-e5509208b492 HTTP/1.1" 200 31
+INFO 2020-09-23 15:12:09,152 basehttp 154 "GET /imagecode/?uuid=700c50eb-3508-41d2-b449-898862936fa2 HTTP/1.1" 200 3446
+INFO 2020-09-23 15:12:31,796 basehttp 154 "POST /register/ HTTP/1.1" 200 33
+INFO 2020-09-23 15:12:40,151 basehttp 154 "GET /register/ HTTP/1.1" 200 5494
+INFO 2020-09-23 15:12:40,217 basehttp 154 "GET /imagecode/?uuid=cefcf68d-e0ad-40c6-8b04-2b7adbe12495 HTTP/1.1" 200 2962
+INFO 2020-09-23 15:23:59,684 autoreload 217 /Users/wudada/Desktop/wu-blog/Blog/Blog/urls.py changed, reloading.
+INFO 2020-09-23 15:24:00,121 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-23 15:25:48,752 autoreload 217 /Users/wudada/Desktop/wu-blog/Blog/Blog/apps/users/views.py changed, reloading.
+INFO 2020-09-23 15:25:49,226 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-23 15:25:57,720 autoreload 597 Watching for file changes with StatReloader
+ERROR 2020-09-23 15:26:00,848 log 228 Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/wudada/Desktop/wu-blog/Blog/Blog/apps/home/views.py", line 10, in get
+    return render(request, 'index.html')
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2020-09-23 15:26:00,849 basehttp 154 "GET / HTTP/1.1" 500 87701
+ERROR 2020-09-23 15:27:57,398 log 228 Internal Server Error: /index.html
+Traceback (most recent call last):
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/wudada/Desktop/wu-blog/Blog/Blog/apps/home/views.py", line 10, in get
+    return render(request, 'index.html')
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2020-09-23 15:27:57,399 basehttp 154 "GET /index.html HTTP/1.1" 500 87851
+ERROR 2020-09-23 15:28:05,642 log 228 Internal Server Error: /users/index.html
+Traceback (most recent call last):
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/wudada/Desktop/wu-blog/Blog/Blog/apps/home/views.py", line 10, in get
+    return render(request, 'index.html')
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2020-09-23 15:28:05,643 basehttp 154 "GET /users/index.html HTTP/1.1" 500 87941
+ERROR 2020-09-23 15:28:49,856 log 228 Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/wudada/Desktop/wu-blog/Blog/Blog/apps/home/views.py", line 10, in get
+    return render(request, 'index.html')
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2020-09-23 15:28:49,857 basehttp 154 "GET / HTTP/1.1" 500 87701
+ERROR 2020-09-23 15:29:15,713 log 228 Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/wudada/Desktop/wu-blog/Blog/Blog/apps/home/views.py", line 10, in get
+    return render(request, 'index.html')
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2020-09-23 15:29:15,714 basehttp 154 "GET / HTTP/1.1" 500 87836
+ERROR 2020-09-23 15:29:18,317 log 228 Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/wudada/Desktop/wu-blog/Blog/Blog/apps/home/views.py", line 10, in get
+    return render(request, 'index.html')
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2020-09-23 15:29:18,318 basehttp 154 "GET / HTTP/1.1" 500 87836
+INFO 2020-09-23 15:30:13,674 autoreload 217 /Users/wudada/Desktop/wu-blog/Blog/Blog/settings/dev.py changed, reloading.
+INFO 2020-09-23 15:30:14,051 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-23 15:30:22,296 autoreload 217 /Users/wudada/Desktop/wu-blog/Blog/Blog/settings/dev.py changed, reloading.
+INFO 2020-09-23 15:30:22,780 autoreload 597 Watching for file changes with StatReloader
+ERROR 2020-09-23 15:30:28,041 log 228 Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/wudada/Desktop/wu-blog/Blog/Blog/apps/home/views.py", line 10, in get
+    return render(request, 'index.html')
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2020-09-23 15:30:28,042 basehttp 154 "GET / HTTP/1.1" 500 87920
+INFO 2020-09-23 15:30:44,819 autoreload 597 Watching for file changes with StatReloader
+ERROR 2020-09-23 15:30:46,393 log 228 Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/wudada/Desktop/wu-blog/Blog/Blog/apps/home/views.py", line 10, in get
+    return render(request, 'index.html')
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2020-09-23 15:30:46,394 basehttp 154 "GET / HTTP/1.1" 500 87785
+INFO 2020-09-23 15:33:42,179 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-23 15:34:00,595 basehttp 154 "GET /static/index.html HTTP/1.1" 304 0
+INFO 2020-09-23 15:34:00,653 basehttp 154 "GET /static/md_css/monokai.css HTTP/1.1" 304 0
+INFO 2020-09-23 15:34:00,655 basehttp 154 "GET /static/common/jquery.pagination.css HTTP/1.1" 304 0
+INFO 2020-09-23 15:34:00,655 basehttp 154 "GET /static/common/common.css HTTP/1.1" 304 0
+INFO 2020-09-23 15:34:00,656 basehttp 154 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2020-09-23 15:34:00,686 basehttp 154 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2020-09-23 15:34:00,693 basehttp 154 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 304 0
+INFO 2020-09-23 15:34:00,698 basehttp 154 "GET /static/img/1.jpg HTTP/1.1" 200 78682
+ERROR 2020-09-23 15:34:14,052 log 228 Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/wudada/Desktop/wu-blog/Blog/Blog/apps/home/views.py", line 10, in get
+    return render(request, 'index.html')
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2020-09-23 15:34:14,053 basehttp 154 "GET / HTTP/1.1" 500 87951
+WARNING 2020-09-23 15:35:21,553 basehttp 154 "GET /static/register/ HTTP/1.1" 404 1752
+INFO 2020-09-23 15:35:25,843 basehttp 154 "GET /register/ HTTP/1.1" 200 5494
+INFO 2020-09-23 15:35:29,029 basehttp 154 "GET /imagecode/?uuid=cd992644-4a59-40c0-b964-2dc0bcfc64cf HTTP/1.1" 200 3153
+INFO 2020-09-23 15:36:43,402 basehttp 154 "GET /imagecode/?uuid=94c820f6-781f-4c3e-8b92-9ffe5a3ef496 HTTP/1.1" 200 2766
+INFO 2020-09-23 15:36:46,739 basehttp 154 "GET /imagecode/?uuid=ac24d8ff-d1ac-48fa-a26e-db17a30f362a HTTP/1.1" 200 3155
+INFO 2020-09-23 15:36:53,670 views 75 602582
+INFO 2020-09-23 15:36:54,101 basehttp 154 "GET /smscode/?mobile=13635192508&image_code=kcs9&uuid=ac24d8ff-d1ac-48fa-a26e-db17a30f362a HTTP/1.1" 200 31
+INFO 2020-09-23 15:36:54,113 basehttp 154 "GET /imagecode/?uuid=2cdfb354-571c-404d-8b42-4e0c8695c7d1 HTTP/1.1" 200 2999
+WARNING 2020-09-23 15:37:38,975 log 228 Bad Request: /register/
+WARNING 2020-09-23 15:37:38,976 basehttp 154 "POST /register/ HTTP/1.1" 400 12
+INFO 2020-09-23 15:37:45,825 basehttp 154 "GET /imagecode/?uuid=4e5b1838-0936-49c5-b6c5-425bfa90bb11 HTTP/1.1" 200 3306
+ERROR 2020-09-23 15:38:42,012 log 228 Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/wudada/Desktop/wu-blog/Blog/Blog/apps/home/views.py", line 10, in get
+    return render(request, 'index.html')
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2020-09-23 15:38:42,013 basehttp 154 "GET / HTTP/1.1" 500 87656
+INFO 2020-09-23 15:39:14,469 autoreload 597 Watching for file changes with StatReloader
+ERROR 2020-09-23 15:39:17,555 log 228 Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/wudada/Desktop/wu-blog/Blog/Blog/apps/home/views.py", line 10, in get
+    return render(request, 'index.html')
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2020-09-23 15:39:17,557 basehttp 154 "GET / HTTP/1.1" 500 88157
+INFO 2020-09-23 15:41:04,917 autoreload 597 Watching for file changes with StatReloader
+ERROR 2020-09-23 15:41:20,534 log 228 Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/wudada/Desktop/wu-blog/Blog/Blog/apps/home/views.py", line 11, in get
+    return render(request, 'index.html')
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2020-09-23 15:41:20,556 basehttp 154 "GET / HTTP/1.1" 500 89983
+INFO 2020-09-23 15:42:36,083 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-23 15:42:46,218 basehttp 154 "GET / HTTP/1.1" 200 11960
+INFO 2020-09-23 15:50:33,034 basehttp 154 "GET /register/ HTTP/1.1" 200 5484
+INFO 2020-09-23 15:50:33,094 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2020-09-23 15:50:33,098 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2020-09-23 15:50:33,101 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2020-09-23 15:50:33,104 basehttp 154 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2020-09-23 15:50:33,108 basehttp 154 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2020-09-23 15:50:33,109 basehttp 154 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2020-09-23 15:50:33,495 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2020-09-23 15:50:33,496 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2020-09-23 15:50:33,496 basehttp 154 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2020-09-23 15:50:33,501 basehttp 154 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2020-09-23 15:50:33,645 basehttp 154 "GET /imagecode/?uuid=42b21dcf-4480-4bd3-9ebb-785512a34f4c HTTP/1.1" 200 3136
+INFO 2020-09-23 15:50:46,891 basehttp 154 "GET /imagecode/?uuid=baaf6c68-5471-4a7f-b898-4cdcb9958311 HTTP/1.1" 200 3300
+INFO 2020-09-23 15:50:53,384 views 75 437489
+INFO 2020-09-23 15:50:53,832 basehttp 154 "GET /smscode/?mobile=13635192508&image_code=befq&uuid=baaf6c68-5471-4a7f-b898-4cdcb9958311 HTTP/1.1" 200 31
+INFO 2020-09-23 15:50:53,861 basehttp 154 "GET /imagecode/?uuid=2aa71c9a-0481-4f9b-9d96-7bbe8c15b13f HTTP/1.1" 200 3306
+WARNING 2020-09-23 15:51:05,159 log 228 Bad Request: /register/
+WARNING 2020-09-23 15:51:05,167 basehttp 154 "POST /register/ HTTP/1.1" 400 12
+INFO 2020-09-23 15:51:07,016 basehttp 154 "GET /imagecode/?uuid=b43013df-7194-433e-8a55-648448750117 HTTP/1.1" 200 3050
+INFO 2020-09-23 15:51:08,114 basehttp 154 "GET /imagecode/?uuid=adcf78d5-7436-4dc3-a4db-b45f01a7e8fc HTTP/1.1" 200 3302
+INFO 2020-09-23 15:51:10,138 basehttp 154 "GET /imagecode/?uuid=712a230f-3fc3-42c6-a1a8-85f7d8e3cc1c HTTP/1.1" 200 3403
+INFO 2020-09-23 15:51:11,149 basehttp 154 "GET /imagecode/?uuid=0d877ec4-b2c9-4ef4-a10e-9a2f38d00337 HTTP/1.1" 200 3167
+INFO 2020-09-23 15:51:31,562 views 75 341284
+INFO 2020-09-23 15:51:32,082 basehttp 154 "GET /smscode/?mobile=13635192508&image_code=dopp&uuid=0d877ec4-b2c9-4ef4-a10e-9a2f38d00337 HTTP/1.1" 200 31
+INFO 2020-09-23 15:51:32,105 basehttp 154 "GET /imagecode/?uuid=6dc4c12c-0a52-4a09-907d-dfc66607ccd5 HTTP/1.1" 200 3166
+WARNING 2020-09-23 15:51:44,244 log 228 Bad Request: /register/
+WARNING 2020-09-23 15:51:44,245 basehttp 154 "POST /register/ HTTP/1.1" 400 12
+INFO 2020-09-23 15:51:55,272 basehttp 154 "GET /register/ HTTP/1.1" 200 5484
+INFO 2020-09-23 15:51:55,313 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2020-09-23 15:51:55,319 basehttp 154 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2020-09-23 15:51:55,320 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2020-09-23 15:51:55,326 basehttp 154 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2020-09-23 15:51:55,332 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2020-09-23 15:51:55,390 basehttp 154 "GET /imagecode/?uuid=a5b16613-3679-43bc-b6cc-44357afc0eab HTTP/1.1" 200 3240
+INFO 2020-09-23 15:51:55,843 basehttp 154 "GET /register/ HTTP/1.1" 200 5484
+INFO 2020-09-23 15:51:55,909 basehttp 154 "GET /imagecode/?uuid=e570d4bc-05aa-4603-a0d7-2d9aa7efe53d HTTP/1.1" 200 2752
+INFO 2020-09-23 15:51:56,001 basehttp 154 "GET /register/ HTTP/1.1" 200 5484
+INFO 2020-09-23 15:51:56,054 basehttp 154 "GET /imagecode/?uuid=e6199279-f118-47cf-8af9-ee323569348b HTTP/1.1" 200 2710
+INFO 2020-09-23 15:51:56,187 basehttp 154 "GET /register/ HTTP/1.1" 200 5484
+INFO 2020-09-23 15:51:56,249 basehttp 154 "GET /imagecode/?uuid=c474e776-073c-4a48-b390-f5a44b191f0f HTTP/1.1" 200 3039
+INFO 2020-09-23 15:51:56,506 basehttp 154 "GET /register/ HTTP/1.1" 200 5484
+INFO 2020-09-23 15:51:56,560 basehttp 154 "GET /imagecode/?uuid=cdac0587-772c-42ec-8935-0fe69fc5d8cd HTTP/1.1" 200 3452
+INFO 2020-09-23 15:51:56,681 basehttp 154 "GET /register/ HTTP/1.1" 200 5484
+INFO 2020-09-23 15:51:56,738 basehttp 154 "GET /imagecode/?uuid=68442ec2-0697-47ff-a05b-ba91dece772f HTTP/1.1" 200 3446
+INFO 2020-09-23 15:51:56,981 basehttp 154 "GET /register/ HTTP/1.1" 200 5484
+INFO 2020-09-23 15:51:57,064 basehttp 154 "GET /imagecode/?uuid=9bc12405-19bd-4cf8-b8e0-31f2b7d53907 HTTP/1.1" 200 3134
+INFO 2020-09-23 15:51:57,338 basehttp 154 "GET /register/ HTTP/1.1" 200 5484
+INFO 2020-09-23 15:51:57,406 basehttp 154 "GET /imagecode/?uuid=ababf1f0-25d1-4350-adeb-f18b2a3b52f7 HTTP/1.1" 200 3036
+INFO 2020-09-23 15:51:57,475 basehttp 154 "GET /register/ HTTP/1.1" 200 5484
+INFO 2020-09-23 15:51:57,541 basehttp 154 "GET /imagecode/?uuid=42d75df4-0e88-4e7f-8e10-2feee896e7d9 HTTP/1.1" 200 3013
+INFO 2020-09-23 15:51:57,677 basehttp 154 "GET /register/ HTTP/1.1" 200 5484
+INFO 2020-09-23 15:51:57,748 basehttp 154 "GET /imagecode/?uuid=0741dcd8-be77-4e3b-b3c4-5be20c1f389d HTTP/1.1" 200 3349
+INFO 2020-09-23 15:51:57,896 basehttp 154 "GET /register/ HTTP/1.1" 200 5484
+INFO 2020-09-23 15:51:57,962 basehttp 154 "GET /imagecode/?uuid=bc5113e8-1994-4cf8-bee6-b7898aaec294 HTTP/1.1" 200 3305
+INFO 2020-09-23 15:51:58,145 basehttp 154 "GET /register/ HTTP/1.1" 200 5484
+INFO 2020-09-23 15:51:58,225 basehttp 154 "GET /imagecode/?uuid=d0ede75c-2784-4d66-9601-35e3a34a8b2b HTTP/1.1" 200 2731
+INFO 2020-09-23 15:51:58,413 basehttp 154 "GET /register/ HTTP/1.1" 200 5484
+INFO 2020-09-23 15:51:58,481 basehttp 154 "GET /imagecode/?uuid=62102355-b56a-4d3c-a481-ef1470df76de HTTP/1.1" 200 3172
+INFO 2020-09-23 15:51:58,589 basehttp 154 "GET /register/ HTTP/1.1" 200 5484
+INFO 2020-09-23 15:51:58,657 basehttp 154 "GET /imagecode/?uuid=d7d1b880-2fdc-4d6d-b876-64a8f6c6b20c HTTP/1.1" 200 2903
+INFO 2020-09-23 15:52:05,009 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-23 15:52:09,798 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-23 15:52:13,264 basehttp 154 "GET /register/ HTTP/1.1" 200 5484
+INFO 2020-09-23 15:52:13,337 basehttp 154 "GET /imagecode/?uuid=9dbd115b-f3d6-40c8-9ba1-0953c9807e7d HTTP/1.1" 200 3105
+INFO 2020-09-23 15:52:30,135 views 75 229835
+INFO 2020-09-23 15:52:30,501 basehttp 154 "GET /smscode/?mobile=13635192508&image_code=apoc&uuid=9dbd115b-f3d6-40c8-9ba1-0953c9807e7d HTTP/1.1" 200 31
+INFO 2020-09-23 15:52:30,514 basehttp 154 "GET /imagecode/?uuid=31452192-9ea3-4ebb-802d-3567883206ab HTTP/1.1" 200 3377
+WARNING 2020-09-23 15:52:40,778 log 228 Bad Request: /register/
+WARNING 2020-09-23 15:52:40,779 basehttp 154 "POST /register/ HTTP/1.1" 400 12
+INFO 2020-09-23 15:53:54,455 autoreload 217 /Users/wudada/Desktop/wu-blog/Blog/Blog/apps/users/views.py changed, reloading.
+INFO 2020-09-23 15:53:54,933 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-09-23 15:53:57,317 log 228 Bad Request: /register/
+WARNING 2020-09-23 15:53:57,318 basehttp 154 "POST /register/ HTTP/1.1" 400 12
+INFO 2020-09-23 15:53:59,168 basehttp 154 "GET /imagecode/?uuid=56dc6362-c7fd-4ed8-8a95-c27a094648e5 HTTP/1.1" 200 2989
+INFO 2020-09-23 15:54:03,449 basehttp 154 "GET /register/ HTTP/1.1" 200 5484
+INFO 2020-09-23 15:54:03,491 basehttp 154 "GET /imagecode/?uuid=a66d2339-f65a-4d3c-b59f-d3e555af767b HTTP/1.1" 200 3598
+INFO 2020-09-23 15:54:03,891 basehttp 154 "GET /register/ HTTP/1.1" 200 5484
+INFO 2020-09-23 15:54:03,935 basehttp 154 "GET /imagecode/?uuid=335aba00-5035-41e9-946c-d2618d99000a HTTP/1.1" 200 3766
+INFO 2020-09-23 15:54:04,069 basehttp 154 "GET /register/ HTTP/1.1" 200 5484
+INFO 2020-09-23 15:54:04,119 basehttp 154 "GET /imagecode/?uuid=b43386d0-af28-4839-a215-3db2815b71d8 HTTP/1.1" 200 2959
+INFO 2020-09-23 15:54:04,251 basehttp 154 "GET /register/ HTTP/1.1" 200 5484
+INFO 2020-09-23 15:54:04,287 basehttp 154 "GET /imagecode/?uuid=084e62c0-16bb-4cce-a237-2e5e8b1db8f6 HTTP/1.1" 200 3166
+INFO 2020-09-23 15:54:04,432 basehttp 154 "GET /register/ HTTP/1.1" 200 5484
+INFO 2020-09-23 15:54:04,480 basehttp 154 "GET /imagecode/?uuid=87a88e8d-f4fb-45ab-b60d-ff4f2ebaac0f HTTP/1.1" 200 3322
+INFO 2020-09-23 15:54:04,618 basehttp 154 "GET /register/ HTTP/1.1" 200 5484
+INFO 2020-09-23 15:54:04,658 basehttp 154 "GET /imagecode/?uuid=9bce5649-f400-46f5-b652-a8c443f9496b HTTP/1.1" 200 3272
+INFO 2020-09-23 15:54:04,786 basehttp 154 "GET /register/ HTTP/1.1" 200 5484
+INFO 2020-09-23 15:54:04,824 basehttp 154 "GET /imagecode/?uuid=7d955876-df34-4a9a-bbb4-3d47b276439f HTTP/1.1" 200 3124
+INFO 2020-09-23 15:54:04,970 basehttp 154 "GET /register/ HTTP/1.1" 200 5484
+INFO 2020-09-23 15:54:05,014 basehttp 154 "GET /imagecode/?uuid=68abea65-bb61-4a88-a80c-f98429e7a6de HTTP/1.1" 200 3267
+INFO 2020-09-23 15:54:05,153 basehttp 154 "GET /register/ HTTP/1.1" 200 5484
+INFO 2020-09-23 15:54:05,203 basehttp 154 "GET /imagecode/?uuid=5f353160-b4f9-4c30-8001-166075e85a11 HTTP/1.1" 200 3410
+INFO 2020-09-23 15:54:05,346 basehttp 154 "GET /register/ HTTP/1.1" 200 5484
+INFO 2020-09-23 15:54:05,392 basehttp 154 "GET /imagecode/?uuid=c86737c8-e83e-4017-8a4e-dfde0e622504 HTTP/1.1" 200 3254
+INFO 2020-09-23 15:54:05,538 basehttp 154 "GET /register/ HTTP/1.1" 200 5484
+INFO 2020-09-23 15:54:05,583 basehttp 154 "GET /imagecode/?uuid=dab871dc-a9c4-41ce-acbb-1f695077b36b HTTP/1.1" 200 2963
+INFO 2020-09-23 15:54:40,329 views 75 362068
+INFO 2020-09-23 15:54:40,330 basehttp 154 "GET /smscode/?mobile=13678945612&image_code=yzbj&uuid=dab871dc-a9c4-41ce-acbb-1f695077b36b HTTP/1.1" 200 31
+INFO 2020-09-23 15:54:40,343 basehttp 154 "GET /imagecode/?uuid=d4e02a10-7399-41aa-9b28-b7b2d93c9586 HTTP/1.1" 200 3338
+ERROR 2020-09-23 15:54:49,392 log 228 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/urls/base.py", line 75, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'home'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/wudada/Desktop/wu-blog/Blog/Blog/apps/users/views.py", line 62, in post
+    return redirect(reverse('home:index'))
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/urls/base.py", line 86, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'home' is not a registered namespace
+ERROR 2020-09-23 15:54:49,393 basehttp 154 "POST /register/ HTTP/1.1" 500 89955
+INFO 2020-09-23 15:55:54,511 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-23 15:56:13,398 basehttp 154 "GET /register/ HTTP/1.1" 200 5484
+INFO 2020-09-23 15:56:13,639 basehttp 154 "GET /imagecode/?uuid=13ba81d2-6650-43cc-a393-fd3aa2a8ad52 HTTP/1.1" 200 3483
+INFO 2020-09-23 15:56:34,731 views 75 291651
+INFO 2020-09-23 15:56:34,736 basehttp 154 "GET /smscode/?mobile=13612345678&image_code=jamq&uuid=13ba81d2-6650-43cc-a393-fd3aa2a8ad52 HTTP/1.1" 200 31
+INFO 2020-09-23 15:56:34,761 basehttp 154 "GET /imagecode/?uuid=db1a4c54-ba8b-489c-af56-9762c77814b0 HTTP/1.1" 200 3116
+ERROR 2020-09-23 15:57:45,746 log 228 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/urls/base.py", line 75, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'home'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/wudada/Desktop/wu-blog/Blog/Blog/apps/users/views.py", line 62, in post
+    return redirect(reverse('home:index'))
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/urls/base.py", line 86, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'home' is not a registered namespace
+ERROR 2020-09-23 15:57:45,763 basehttp 154 "POST /register/ HTTP/1.1" 500 91744
+INFO 2020-09-23 16:02:33,158 autoreload 217 /Users/wudada/Desktop/wu-blog/Blog/Blog/apps/home/url.py changed, reloading.
+INFO 2020-09-23 16:02:34,427 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-23 16:03:11,427 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-23 16:03:14,884 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-23 16:03:16,939 basehttp 154 "GET / HTTP/1.1" 200 11960
+INFO 2020-09-23 16:06:34,452 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-23 16:07:31,750 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-23 16:08:04,335 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-23 16:08:06,812 basehttp 154 "GET / HTTP/1.1" 200 11960
+INFO 2020-09-23 16:08:16,399 basehttp 154 "GET /register/ HTTP/1.1" 200 5484
+INFO 2020-09-23 16:08:16,465 basehttp 154 "GET /imagecode/?uuid=cb7c3e0d-e29f-4d7d-84cd-b90daba96924 HTTP/1.1" 200 2998
+INFO 2020-09-23 16:08:34,523 basehttp 154 "GET /imagecode/?uuid=2e36ee62-dcd0-410a-b400-c71458f1bda0 HTTP/1.1" 200 3061
+INFO 2020-09-23 16:08:39,987 basehttp 154 "GET /imagecode/?uuid=00d003ce-a741-44c6-bb60-c5cdbf426c17 HTTP/1.1" 200 3142
+INFO 2020-09-23 16:08:46,694 views 75 555582
+INFO 2020-09-23 16:08:46,695 basehttp 154 "GET /smscode/?mobile=13635192508&image_code=qbf5&uuid=00d003ce-a741-44c6-bb60-c5cdbf426c17 HTTP/1.1" 200 31
+INFO 2020-09-23 16:08:46,707 basehttp 154 "GET /imagecode/?uuid=37025f97-3160-47bc-8057-81e6da009f21 HTTP/1.1" 200 2696
+ERROR 2020-09-23 16:08:54,715 log 228 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/urls/base.py", line 75, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'home'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/wudada/Desktop/wu-blog/Blog/Blog/apps/users/views.py", line 62, in post
+    return redirect(reverse('home:index'))
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/urls/base.py", line 86, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'home' is not a registered namespace
+ERROR 2020-09-23 16:08:54,716 basehttp 154 "POST /register/ HTTP/1.1" 500 89955
+INFO 2020-09-23 16:09:29,442 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-23 16:10:00,468 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-23 16:10:17,418 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-23 16:10:42,978 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-23 16:11:04,054 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-23 16:11:19,279 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-23 16:11:44,822 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-09-23 16:11:50,887 log 228 Bad Request: /register/
+WARNING 2020-09-23 16:11:50,888 basehttp 154 "POST /register/ HTTP/1.1" 400 12
+WARNING 2020-09-23 16:11:53,683 log 228 Bad Request: /register/
+WARNING 2020-09-23 16:11:53,683 basehttp 154 "POST /register/ HTTP/1.1" 400 12
+INFO 2020-09-23 16:11:59,881 basehttp 154 "GET /register/ HTTP/1.1" 200 5484
+INFO 2020-09-23 16:11:59,987 basehttp 154 "GET /imagecode/?uuid=28ee5256-713d-41a0-be06-c56db3d39a2f HTTP/1.1" 200 3443
+INFO 2020-09-23 16:12:21,405 basehttp 154 "GET /imagecode/?uuid=8bb8c032-c779-428e-a535-6485d177342f HTTP/1.1" 200 3064
+INFO 2020-09-23 16:12:22,886 basehttp 154 "GET /imagecode/?uuid=55508e00-9514-4796-b835-5504b4d9c16a HTTP/1.1" 200 3545
+INFO 2020-09-23 16:12:29,136 views 75 898688
+INFO 2020-09-23 16:12:29,137 basehttp 154 "GET /smscode/?mobile=13635192508&image_code=xnnm&uuid=55508e00-9514-4796-b835-5504b4d9c16a HTTP/1.1" 200 31
+INFO 2020-09-23 16:12:29,148 basehttp 154 "GET /imagecode/?uuid=b65a397a-98c4-4af3-9b03-2b6b9c03a265 HTTP/1.1" 200 3281
+WARNING 2020-09-23 16:12:35,925 log 228 Bad Request: /register/
+WARNING 2020-09-23 16:12:35,926 basehttp 154 "POST /register/ HTTP/1.1" 400 12
+INFO 2020-09-23 16:12:54,555 basehttp 154 "GET /static/center.html HTTP/1.1" 200 4149
+INFO 2020-09-23 16:12:54,575 basehttp 154 "GET /static/img/mei.png HTTP/1.1" 200 230847
+INFO 2020-09-23 16:12:54,577 basehttp 154 "GET /static/js/center.js HTTP/1.1" 200 522
+INFO 2020-09-23 16:13:15,898 basehttp 154 "GET /static/login.html HTTP/1.1" 200 3117
+INFO 2020-09-23 16:13:15,916 basehttp 154 "GET /static/js/login.js HTTP/1.1" 200 677
+INFO 2020-09-23 16:13:18,954 basehttp 154 "GET /static/forget_password.html HTTP/1.1" 200 5264
+INFO 2020-09-23 16:13:18,976 basehttp 154 "GET /static/img/image_code.png HTTP/1.1" 304 0
+INFO 2020-09-23 16:13:18,977 basehttp 154 "GET /static/js/forget_password.js HTTP/1.1" 200 6567
+INFO 2020-09-23 16:13:28,412 basehttp 154 "GET /templates/register.html HTTP/1.1" 200 11960
+INFO 2020-09-23 16:13:36,717 basehttp 154 "GET /templates/register.html HTTP/1.1" 200 11960
+INFO 2020-09-23 16:13:52,575 basehttp 154 "GET /register/ HTTP/1.1" 200 5484
+INFO 2020-09-23 16:13:52,634 basehttp 154 "GET /imagecode/?uuid=a9ecc0e3-a4d1-4670-8054-3e3096c9ebaf HTTP/1.1" 200 3277
+INFO 2020-09-23 16:14:12,136 basehttp 154 "GET /smscode/?mobile=13678945612&image_code=ev88&uuid=a9ecc0e3-a4d1-4670-8054-3e3096c9ebaf HTTP/1.1" 200 69
+INFO 2020-09-23 16:14:12,148 basehttp 154 "GET /imagecode/?uuid=4c7de6f5-8989-452f-97ce-0b6f2ea26c1b HTTP/1.1" 200 2916
+INFO 2020-09-23 16:14:20,847 basehttp 154 "GET /smscode/?mobile=13678945612&image_code=ev88&uuid=4c7de6f5-8989-452f-97ce-0b6f2ea26c1b HTTP/1.1" 200 69
+INFO 2020-09-23 16:14:20,856 basehttp 154 "GET /imagecode/?uuid=89121068-85fa-4489-89ed-ec9314e95cde HTTP/1.1" 200 2947
+INFO 2020-09-23 16:14:29,094 basehttp 154 "GET /smscode/?mobile=13678945612&image_code=ev88&uuid=89121068-85fa-4489-89ed-ec9314e95cde HTTP/1.1" 200 69
+INFO 2020-09-23 16:14:29,105 basehttp 154 "GET /imagecode/?uuid=446bbf9a-9824-4f4e-8fe7-164674162e45 HTTP/1.1" 200 2881
+INFO 2020-09-23 16:14:42,472 basehttp 154 "GET /smscode/?mobile=13678945612&image_code=ev88&uuid=446bbf9a-9824-4f4e-8fe7-164674162e45 HTTP/1.1" 200 69
+INFO 2020-09-23 16:14:42,483 basehttp 154 "GET /imagecode/?uuid=a205fda4-3c73-416c-9ea3-e9c88020c62f HTTP/1.1" 200 3143
+INFO 2020-09-23 16:14:42,552 basehttp 154 "GET /smscode/?mobile=13678945612&image_code=ev88&uuid=a205fda4-3c73-416c-9ea3-e9c88020c62f HTTP/1.1" 200 69
+INFO 2020-09-23 16:14:42,562 basehttp 154 "GET /imagecode/?uuid=439935f9-973f-48e8-9d7f-da8495bbc53d HTTP/1.1" 200 3109
+INFO 2020-09-23 16:14:43,120 basehttp 154 "GET /smscode/?mobile=13678945612&image_code=ev88&uuid=439935f9-973f-48e8-9d7f-da8495bbc53d HTTP/1.1" 200 69
+INFO 2020-09-23 16:14:43,132 basehttp 154 "GET /imagecode/?uuid=816d210e-246c-4f8b-bac1-2f0a1ba3a387 HTTP/1.1" 200 3335
+INFO 2020-09-23 16:14:43,623 basehttp 154 "GET /smscode/?mobile=13678945612&image_code=ev88&uuid=816d210e-246c-4f8b-bac1-2f0a1ba3a387 HTTP/1.1" 200 69
+INFO 2020-09-23 16:14:43,636 basehttp 154 "GET /imagecode/?uuid=1ab3f5a0-c55a-4bc4-abff-f2b56e073e73 HTTP/1.1" 200 3254
+INFO 2020-09-23 16:14:44,191 basehttp 154 "GET /smscode/?mobile=13678945612&image_code=ev88&uuid=1ab3f5a0-c55a-4bc4-abff-f2b56e073e73 HTTP/1.1" 200 69
+INFO 2020-09-23 16:14:44,202 basehttp 154 "GET /imagecode/?uuid=b444175d-fe53-4019-9d15-27147e0a8a99 HTTP/1.1" 200 3206
+INFO 2020-09-23 16:14:46,344 basehttp 154 "GET /smscode/?mobile=13678945612&image_code=ev88&uuid=b444175d-fe53-4019-9d15-27147e0a8a99 HTTP/1.1" 200 69
+INFO 2020-09-23 16:14:46,355 basehttp 154 "GET /imagecode/?uuid=2163f244-c2b6-449f-b974-0a2974d550ab HTTP/1.1" 200 3111
+INFO 2020-09-23 16:14:56,119 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-23 16:15:01,955 basehttp 154 "GET /imagecode/?uuid=1dfcee09-0874-44d4-b1c5-9595a2402dae HTTP/1.1" 200 3194
+INFO 2020-09-23 16:15:14,905 basehttp 154 "GET /smscode/?mobile=13678945612&image_code=4vev&uuid=1dfcee09-0874-44d4-b1c5-9595a2402dae HTTP/1.1" 200 69
+INFO 2020-09-23 16:15:14,915 basehttp 154 "GET /imagecode/?uuid=8a820d91-2720-44e7-87ad-40f6994bc6cc HTTP/1.1" 200 3629
+INFO 2020-09-23 16:15:47,257 basehttp 154 "GET /smscode/?mobile=13678945612&image_code=4vev&uuid=8a820d91-2720-44e7-87ad-40f6994bc6cc HTTP/1.1" 200 69
+INFO 2020-09-23 16:15:47,267 basehttp 154 "GET /imagecode/?uuid=fe4d1587-a94d-45e3-b793-d818e4a0de1c HTTP/1.1" 200 3267
+INFO 2020-09-23 16:15:47,432 basehttp 154 "GET /smscode/?mobile=13678945612&image_code=4vev&uuid=fe4d1587-a94d-45e3-b793-d818e4a0de1c HTTP/1.1" 200 69
+INFO 2020-09-23 16:15:47,445 basehttp 154 "GET /imagecode/?uuid=7410f152-c5f3-482b-9396-1e0ce34e2fed HTTP/1.1" 200 3033
+INFO 2020-09-23 16:15:47,616 basehttp 154 "GET /smscode/?mobile=13678945612&image_code=4vev&uuid=7410f152-c5f3-482b-9396-1e0ce34e2fed HTTP/1.1" 200 69
+INFO 2020-09-23 16:15:47,627 basehttp 154 "GET /imagecode/?uuid=e6bb5cc9-a06f-4872-9b74-e8703987b349 HTTP/1.1" 200 3074
+INFO 2020-09-23 16:15:47,808 basehttp 154 "GET /smscode/?mobile=13678945612&image_code=4vev&uuid=e6bb5cc9-a06f-4872-9b74-e8703987b349 HTTP/1.1" 200 69
+INFO 2020-09-23 16:15:47,819 basehttp 154 "GET /imagecode/?uuid=356ba833-14cf-4e14-996f-dfa660ca1815 HTTP/1.1" 200 3072
+INFO 2020-09-23 16:15:47,975 basehttp 154 "GET /smscode/?mobile=13678945612&image_code=4vev&uuid=356ba833-14cf-4e14-996f-dfa660ca1815 HTTP/1.1" 200 69
+INFO 2020-09-23 16:15:47,986 basehttp 154 "GET /imagecode/?uuid=3bff29f6-1054-4631-bc05-f88e5234ee5d HTTP/1.1" 200 3392
+INFO 2020-09-23 16:15:48,159 basehttp 154 "GET /smscode/?mobile=13678945612&image_code=4vev&uuid=3bff29f6-1054-4631-bc05-f88e5234ee5d HTTP/1.1" 200 69
+INFO 2020-09-23 16:15:48,170 basehttp 154 "GET /imagecode/?uuid=f230b35e-bd25-4919-962c-1f62012daae1 HTTP/1.1" 200 3355
+INFO 2020-09-23 16:15:48,385 basehttp 154 "GET /smscode/?mobile=13678945612&image_code=4vev&uuid=f230b35e-bd25-4919-962c-1f62012daae1 HTTP/1.1" 200 69
+INFO 2020-09-23 16:15:48,396 basehttp 154 "GET /imagecode/?uuid=7edd97c3-3a81-4a32-b19b-777bd7f9447a HTTP/1.1" 200 3356
+INFO 2020-09-23 16:16:02,640 basehttp 154 "GET /register/ HTTP/1.1" 200 5484
+INFO 2020-09-23 16:16:02,691 basehttp 154 "GET /imagecode/?uuid=3296d421-a844-4054-a626-838fe742ce8c HTTP/1.1" 200 3077
+INFO 2020-09-23 16:17:58,263 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-23 16:19:34,921 basehttp 154 "GET /register/ HTTP/1.1" 200 5484
+INFO 2020-09-23 16:19:34,980 basehttp 154 "GET /imagecode/?uuid=80fdb5e3-fc12-4ad3-988a-3fce11ade3f9 HTTP/1.1" 200 3495
+INFO 2020-09-23 16:19:53,500 views 75 099165
+INFO 2020-09-23 16:19:53,500 basehttp 154 "GET /smscode/?mobile=13612345678&image_code=sk3m&uuid=80fdb5e3-fc12-4ad3-988a-3fce11ade3f9 HTTP/1.1" 200 31
+INFO 2020-09-23 16:19:53,511 basehttp 154 "GET /imagecode/?uuid=e3edaf75-1d12-4f75-8c9a-cd5ff8b534a1 HTTP/1.1" 200 3108
+INFO 2020-09-23 16:20:00,879 basehttp 154 "POST /register/ HTTP/1.1" 302 0
+INFO 2020-09-23 16:20:00,884 basehttp 154 "GET / HTTP/1.1" 200 11960
+INFO 2020-09-23 16:20:00,914 basehttp 154 "GET /static/common/common.css HTTP/1.1" 304 0
+INFO 2020-09-23 16:20:00,915 basehttp 154 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+INFO 2020-09-23 16:20:00,916 basehttp 154 "GET /static/md_css/monokai.css HTTP/1.1" 304 0
+INFO 2020-09-23 16:20:00,916 basehttp 154 "GET /static/common/jquery.pagination.css HTTP/1.1" 304 0
+INFO 2020-09-23 16:20:00,923 basehttp 154 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2020-09-23 16:20:00,927 basehttp 154 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 304 0
+INFO 2020-09-23 16:20:00,930 basehttp 154 "GET /static/img/1.jpg HTTP/1.1" 304 0
+INFO 2020-09-23 16:25:19,892 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-23 16:25:27,023 basehttp 154 "GET /register/ HTTP/1.1" 200 5484
+INFO 2020-09-23 16:25:27,089 basehttp 154 "GET /imagecode/?uuid=13f33b1c-82b2-47a2-a7a8-bcf75eb04613 HTTP/1.1" 200 3124
+INFO 2020-09-23 16:25:52,842 basehttp 154 "GET /imagecode/?uuid=9171763c-09d1-43f3-a429-f26d4e0cbaca HTTP/1.1" 200 3332
+INFO 2020-09-23 16:25:59,565 basehttp 154 "GET /smscode/?mobile=13922222222&image_code=ldvs&uuid=9171763c-09d1-43f3-a429-f26d4e0cbaca HTTP/1.1" 200 69
+INFO 2020-09-23 16:25:59,577 basehttp 154 "GET /imagecode/?uuid=c1294803-4f62-454f-9ec0-159e1548eddf HTTP/1.1" 200 3257
+INFO 2020-09-23 16:26:12,149 views 75 314258
+INFO 2020-09-23 16:26:12,149 basehttp 154 "GET /smscode/?mobile=13922222222&image_code=nvkr&uuid=c1294803-4f62-454f-9ec0-159e1548eddf HTTP/1.1" 200 31
+INFO 2020-09-23 16:26:12,159 basehttp 154 "GET /imagecode/?uuid=a37586cd-6838-4afb-a8ed-a06d11e6d6ce HTTP/1.1" 200 2748
+ERROR 2020-09-23 16:26:20,775 log 228 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/wudada/Desktop/wu-blog/Blog/Blog/apps/users/views.py", line 62, in post
+    login(request.user)
+TypeError: login() missing 1 required positional argument: 'user'
+ERROR 2020-09-23 16:26:20,776 basehttp 154 "POST /register/ HTTP/1.1" 500 77640
+INFO 2020-09-23 16:30:07,291 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-23 16:30:16,694 basehttp 154 "GET /register/ HTTP/1.1" 200 5484
+INFO 2020-09-23 16:30:17,845 basehttp 154 "GET /imagecode/?uuid=347f586f-21a2-4da8-927c-d4a2cb6adc09 HTTP/1.1" 200 3539
+INFO 2020-09-23 16:30:43,264 views 75 656526
+INFO 2020-09-23 16:30:43,264 basehttp 154 "GET /smscode/?mobile=16278787878&image_code=ebmr&uuid=347f586f-21a2-4da8-927c-d4a2cb6adc09 HTTP/1.1" 200 31
+INFO 2020-09-23 16:30:43,276 basehttp 154 "GET /imagecode/?uuid=dcce9076-4aec-477e-ab8a-b84f299a1d14 HTTP/1.1" 200 3431
+ERROR 2020-09-23 16:30:52,409 log 228 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/wudada/Desktop/wu-blog/Blog/Blog/apps/users/views.py", line 64, in post
+    login(request.user)
+TypeError: login() missing 1 required positional argument: 'user'
+ERROR 2020-09-23 16:30:52,410 basehttp 154 "POST /register/ HTTP/1.1" 500 77573
+INFO 2020-09-23 16:32:45,155 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-23 16:32:53,994 basehttp 154 "GET /register/ HTTP/1.1" 200 5484
+INFO 2020-09-23 16:32:57,228 basehttp 154 "GET /imagecode/?uuid=0d00a24c-9e13-47c0-bee5-1fb38d9d6273 HTTP/1.1" 200 2737
+INFO 2020-09-23 16:33:09,472 views 75 554511
+INFO 2020-09-23 16:33:09,472 basehttp 154 "GET /smscode/?mobile=13612345678&image_code=8zez&uuid=0d00a24c-9e13-47c0-bee5-1fb38d9d6273 HTTP/1.1" 200 31
+INFO 2020-09-23 16:33:09,484 basehttp 154 "GET /imagecode/?uuid=8d3a3d97-e883-43bc-97fe-7b69638ac259 HTTP/1.1" 200 3017
+WARNING 2020-09-23 16:33:16,757 log 228 Bad Request: /register/
+WARNING 2020-09-23 16:33:16,757 basehttp 154 "POST /register/ HTTP/1.1" 400 12
+INFO 2020-09-23 16:33:30,536 basehttp 154 "GET /imagecode/?uuid=ffd9ab46-d4ef-4adb-b357-d983e3c42a4c HTTP/1.1" 200 3523
+INFO 2020-09-23 16:33:49,960 views 75 935051
+INFO 2020-09-23 16:33:49,961 basehttp 154 "GET /smscode/?mobile=16822222222&image_code=jtuo&uuid=ffd9ab46-d4ef-4adb-b357-d983e3c42a4c HTTP/1.1" 200 31
+INFO 2020-09-23 16:33:49,973 basehttp 154 "GET /imagecode/?uuid=85d18f14-5cf3-4140-a595-2d68a20b45f8 HTTP/1.1" 200 3099
+INFO 2020-09-23 16:33:57,101 basehttp 154 "POST /register/ HTTP/1.1" 302 0
+INFO 2020-09-23 16:33:57,109 basehttp 154 "GET / HTTP/1.1" 200 11960
+INFO 2020-09-23 16:40:34,922 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-23 16:40:36,963 basehttp 154 "GET /Login HTTP/1.1" 200 11950
+INFO 2020-09-23 16:40:37,020 basehttp 154 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2020-09-23 16:40:37,029 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2020-09-23 16:40:37,030 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2020-09-23 16:40:37,060 basehttp 154 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2020-09-23 16:40:37,066 basehttp 154 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2020-09-23 16:41:37,389 basehttp 154 "GET /Login HTTP/1.1" 200 11950
+INFO 2020-09-23 16:42:45,521 autoreload 217 /Users/wudada/Desktop/wu-blog/Blog/Blog/apps/users/url.py changed, reloading.
+INFO 2020-09-23 16:42:45,916 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-23 16:42:47,430 basehttp 154 "GET /Login/ HTTP/1.1" 200 3084

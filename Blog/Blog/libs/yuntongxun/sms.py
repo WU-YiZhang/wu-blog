@@ -1,15 +1,18 @@
 # -*- coding:utf-8 -*-
+import ssl
+
+ssl._create_default_https_context = ssl._create_unverified_context
 
 from libs.yuntongxun.CCPRestSDK import REST
 
 # 说明：主账号，登陆云通讯网站后，可在"控制台-应用"中看到开发者主账号ACCOUNT SID
-_accountSid = '8aaf0708568d4143015697b0f4960888'
+_accountSid = '8aaf07087172a6ee01719b9ec35d16ce'
 
 # 说明：主账号Token，登陆云通讯网站后，可在控制台-应用中看到开发者主账号AUTH TOKEN
-_accountToken = '57c6c3ef3cef47e680519a734f6812f8'
+_accountToken = '1a2211e41886478c95b81ec2575d4d45'
 
 # 请使用管理控制台首页的APPID或自己创建应用的APPID
-_appId = '8aaf0708568d4143015697b0f56e088f'
+_appId = '8aaf07087172a6ee01719b9ec3b916d5'
 
 # 说明：请求地址，生产环境配置成app.cloopen.com
 _serverIP = 'sandboxapp.cloopen.com'
@@ -63,13 +66,15 @@ class CCP(object):
         # 如果云通讯发送短信成功，返回的字典数据result中statuCode字段的值为"000000"
         if result.get("statusCode") == "000000":
             # 返回0 表示发送短信成功
+            print("发送成功")
             return 0
         else:
             # 返回-1 表示发送失败
+            print("发送失败")
             return -1
 
 
 if __name__ == '__main__':
     ccp = CCP()
     # 注意： 测试的短信模板编号为1
-    ccp.send_template_sms('18310820688', ['1234', 5], 1)
+    ccp.send_template_sms('17666101700', ['1234', 5], 1)
