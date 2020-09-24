@@ -1,6 +1,6 @@
 import re
 
-from django.contrib.auth import login
+from django.contrib.auth import login, authenticate
 from django.db import DatabaseError
 from django.shortcuts import render, redirect
 
@@ -80,3 +80,55 @@ class LogInView(View):
 
     def get(self, request):
         return render(request, 'login.html')
+
+    def post(self,request):
+        mobile = request.POST.get("mobile")
+
+        password = request.POST.get("password")
+
+        remember = request.POST.get("remember")
+
+        # 检验参数齐全
+        if not all([mobile, password]):
+            return HttpResponseBadRequest("缺少必要参数")
+
+        # 检验手机号码
+        if not re.match(r'^1[3-9]\d{9}$', mobile):
+            return HttpResponseBadRequest("请输入正确手机号码")
+
+        # 检验密码格式
+        if not re.match(r'^[0-9A-Za-z]{8,20}$', password):
+            return HttpResponseBadRequest("请输入8~20位的密码")
+
+        # 认证登录用户
+        # 认证字段已经在User模型中的UESRNAME——FIELD = 'mobile'修改
+        user = authenticate(mobile=mobile, password=password)
+
+        if user is None:
+            return HttpResponseBadRequest("用户名或密码错误")
+
+        # 实现转态保持
+        login(request, user)
+
+        # 响应登录结果
+        response = redirect(reverse('home:index'))
+
+        # 设置状态保存周期
+        # 判断是否记住密码
+        if remember != "no":
+            # 没有记住密码：浏览器结束会话就过期
+            request.session.set_expiry(0)
+
+            # 设置cookie
+            response.set_cookie('is_login', True)
+            response.set_cookie('username', user.username, max_age=30 * 24 * 3600)
+
+        else:
+            # 记住密码： None表示两周后过期
+            request.session.set_expiry(None)
+            response.set_cookie("is_login", True, max_age=14*24*360)
+            response.set_cookie("username", user.username, max_age=30*24*3600)
+
+        return response
+
+

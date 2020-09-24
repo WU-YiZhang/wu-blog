@@ -13,6 +13,6 @@ from users.views import RegisterView, LogInView
 
 urlpatterns = [
 
-    url(r"register/", RegisterView.as_view()),
+    url(r"register/", RegisterView.as_view(), name="register"),
     url(r"Login/", LogInView.as_view())
 ]
