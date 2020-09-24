@@ -10,6 +10,7 @@ from django.urls import reverse
 from django.views import View
 from django_redis import get_redis_connection
 from users.models import User
+from django.contrib.auth.mixins import LoginRequiredMixin
 
 """注册接口"""
 class RegisterView(View):
@@ -100,14 +101,24 @@ class LogInView(View):
         # 认证字段已经在User模型中的UESRNAME——FIELD = 'mobile'修改
         user = authenticate(mobile=mobile, password=password)
 
+        try:
+            User.objects.get(mobile=mobile)
+        except User.DoesNotExist:
+            # 手机号码查询不到用户，则注册新用户
+            return redirect(reverse("users:register"))
+
         if user is None:
             return HttpResponseBadRequest("用户名或密码错误")
 
         # 实现转态保持
         login(request, user)
 
-        # 响应登录结果
-        response = redirect(reverse('home:index'))
+        next= request.GET.get('next')
+        if next:
+            response = redirect(next)
+        else:
+            # 响应登录结果
+            response = redirect(reverse('home:index'))
 
         # 设置状态保存周期
         # 判断是否记住密码
@@ -200,6 +211,24 @@ class ForgetPasswordView(View):
             user.save()
         response = redirect(reverse("users:login"))
         return response
+
+
+"""页面展示接口 """
+class UserCenterView(LoginRequiredMixin, View):
+    def get(self, request):
+        # 获取用户信息
+        user = request.user
+
+        context = {
+            "username": user.username,
+            "mobile": user.mobile,
+            "avatar": user.avatar.url if user.avatar else None,
+            "user_desc": user.user_desc
+        }
+
+        return render(request, 'center.html', context=context)
+
+
 
 
 
