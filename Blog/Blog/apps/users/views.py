@@ -1,24 +1,19 @@
 import re
 
-from django.contrib.auth import login, authenticate
+from django.contrib.auth import login, authenticate, logout
 from django.db import DatabaseError
 from django.shortcuts import render, redirect
-
-# Create your views here.
-
 
 # Create your views here.
 from django.http import HttpResponse, HttpResponseBadRequest
 from django.urls import reverse
 from django.views import View
 from django_redis import get_redis_connection
-
-
 from users.models import User
 
-
+"""注册接口"""
 class RegisterView(View):
-    def get(self,request):
+    def get(self, request):
         return render(request, 'register.html')
 
     def post(self, request):
@@ -76,6 +71,7 @@ class RegisterView(View):
         return response
 
 
+"""登录接口"""
 class LogInView(View):
 
     def get(self, request):
@@ -132,3 +128,16 @@ class LogInView(View):
         return response
 
 
+"""退出登录接口"""
+class LogoutView(View):
+    def get(self,request):
+        # 清除session
+        logout(request)
+
+        # 退出登录，重定向到首页页面
+        response = redirect(reverse('home:index'))
+
+        # 退出时清除cookie中的登录状态
+        response.delete_cookie('is_login')
+
+        return response
