@@ -211,3 +211,13 @@ LOGGING = {
 
 # 指定本项目使用自定义的模型类:
 AUTH_USER_MODEL = 'users.User'
+
+# 设置未登录用户跳转的路由
+LOGIN_URL = '/login/'
+
+
+# 七牛云
+QINIU_ACCESS_KEY = 'QYCyG46WWH87kUAmwsu_Y8b_iMlHewBapNss2xf1'
+QINIU_SECRET_KEY = 'xa57kXjw0YKykh97tk4Kp3UWo6tksX_z4Vr03b9u'
+QINIU_BUCKET_NAME = 'kychina'
+QINIU_DOMAIN = 'http://tupian.kychina.xin/'

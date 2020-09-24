@@ -1,6 +1,7 @@
 import re
 
 from django.contrib.auth import login, authenticate, logout
+
 from django.db import DatabaseError
 from django.shortcuts import render, redirect
 
@@ -9,8 +10,13 @@ from django.http import HttpResponse, HttpResponseBadRequest
 from django.urls import reverse
 from django.views import View
 from django_redis import get_redis_connection
+
+from settings.dev import QINIU_DOMAIN
 from users.models import User
 from django.contrib.auth.mixins import LoginRequiredMixin
+from libs.qiniuyun.tupian import upload_file
+
+
 
 """注册接口"""
 class RegisterView(View):
@@ -213,20 +219,56 @@ class ForgetPasswordView(View):
         return response
 
 
-"""页面展示接口 """
+"""用户中心接口 """
 class UserCenterView(LoginRequiredMixin, View):
+    # 页面展示
     def get(self, request):
         # 获取用户信息
         user = request.user
+        if user.avatar:
+            avatar = user.avatar.url
+            file_url = QINIU_DOMAIN + avatar
+            print(file_url)
 
+        else:
+            file_url = None
         context = {
             "username": user.username,
             "mobile": user.mobile,
-            "avatar": user.avatar.url if user.avatar else None,
+            "avatar": file_url,
             "user_desc": user.user_desc
         }
 
         return render(request, 'center.html', context=context)
+
+    # 用户中心修改
+    def post(self, request):
+        # 接受数据
+        user = request.user
+        avatar = request.FILES.get("avatar")
+        username = request.POST.get("username", user.username)
+        user_desc = request.POST.get('desc', user.user_desc)
+
+        file_url = upload_file(avatar)
+
+
+
+        # 修改数据
+        try:
+            user.username = username
+            user.user_desc = user_desc
+            user.avatar = file_url
+            user.save()
+        except Exception as e:
+            return HttpResponseBadRequest("更新数据失败，请稍后再试")
+
+        # 返回响应，刷新页面
+        response = redirect(reverse('users:center'))
+
+        # 更新cookie信息
+        response.set_cookie('username', user.username, max_age=30*24*3600)
+        return response
+
 
 
 
