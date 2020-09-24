@@ -9,16 +9,19 @@
 '''
 from django.conf.urls import url
 # from django.urls import path
-from users.views import RegisterView, LogInView, LogoutView
+from users.views import RegisterView, LogInView, LogoutView, ForgetPasswordView
 
 urlpatterns = [
     # 注册路由
     url(r"register/", RegisterView.as_view(), name="register"),
 
     # 登录路由
-    url(r"Login/", LogInView.as_view(), name='login'),
+    url(r"login/", LogInView.as_view(), name='login'),
 
     # 退出登录路由
-    url(r'logout/', LogoutView.as_view(), name='logout')
+    url(r'logout/', LogoutView.as_view(), name='logout'),
+
+    # 忘记密码页面路由
+    url(r'forgetpassword/', ForgetPasswordView.as_view(), name='forgetpassword'),
 
 ]
