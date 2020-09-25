@@ -6,10 +6,10 @@ from django.shortcuts import render
 # Create your views here.
 from django.views import View
 from django_redis import get_redis_connection
-from libs.captcha.captcha import captcha
+from Blog.libs.captcha.captcha import captcha
 import logging
 
-from libs.yuntongxun.sms import CCP
+from Blog.libs.yuntongxun.sms import CCP
 
 logger = logging.getLogger('django')
 
@@ -78,7 +78,7 @@ class SMSCodeView(View):
         redis_conn.setex('sms:%s' % mobile, 300, sms_code)
 
         # 发送短信验证码
-        # CCP().send_template_sms(mobile, [sms_code, 5], 1)
+        CCP().send_template_sms(mobile, [sms_code, 5], 1)
 
         # 返回响应结果
         return JsonResponse({"code": "200", "errmsg": "ok"})

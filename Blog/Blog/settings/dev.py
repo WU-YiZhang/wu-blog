@@ -19,6 +19,12 @@ apps_path = os.path.join(BASE_DIR, 'apps')
 # 把绝对路径添加到'导包路径'
 sys.path.insert(0, apps_path)
 
+# libs_path = os.path.join(BASE_DIR, 'libs')
+#
+# sys.path.insert(1, libs_path)
+
+# sys.path.insert(1, os.path.join(BASE_DIR, 'libs'))
+
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
@@ -98,9 +104,9 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',  # 数据库引擎
         'HOST': '127.0.0.1',  # 数据库主机
         'PORT': 3306,  # 数据库端口
-        'USER': 'python',  # 数据库用户名
-        'PASSWORD': '123456',  # 数据库用户密码
-        'NAME': 'blog'  # 数据库名字
+        'USER': 'root',  # 数据库用户名
+        'PASSWORD': '12345678',  # 数据库用户密码
+        'NAME': 'blog_db'  # 数据库名字
     },
 }
 
@@ -128,9 +134,9 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/2.2/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'zh-Hans'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Shanghai'
 
 USE_I18N = True
 
@@ -216,8 +222,5 @@ AUTH_USER_MODEL = 'users.User'
 LOGIN_URL = '/login/'
 
 
-# 七牛云
-QINIU_ACCESS_KEY = 'QYCyG46WWH87kUAmwsu_Y8b_iMlHewBapNss2xf1'
-QINIU_SECRET_KEY = 'xa57kXjw0YKykh97tk4Kp3UWo6tksX_z4Vr03b9u'
-QINIU_BUCKET_NAME = 'kychina'
-QINIU_DOMAIN = 'http://tupian.kychina.xin/'
+
+

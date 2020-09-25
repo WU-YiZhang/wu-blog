@@ -9,7 +9,11 @@
 '''
 from django.conf.urls import url
 # from django.urls import path
-from users.views import RegisterView, LogInView, LogoutView, ForgetPasswordView, UserCenterView, WriteBlogView
+from users.views import RegisterView, \
+                        LogInView, LogoutView, \
+                        ForgetPasswordView, \
+                        UserCenterView, \
+                        WriteBlogView
 
 urlpatterns = [
     # 注册路由

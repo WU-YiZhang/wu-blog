@@ -15,7 +15,7 @@ class User(AbstractUser):
     """自定义用户模型类"""
 
     # 额外增加 mobile 字段
-    mobile = models.CharField(max_length=11, unique=True,blank=False, verbose_name='手机号')
+    mobile = models.CharField(max_length=11, unique=True, blank=False, verbose_name='手机号')
 
     # 添加头像地址字段
     avatar = models.ImageField(blank=True, verbose_name='头像地址')
@@ -38,3 +38,4 @@ class User(AbstractUser):
     # 在 str 魔法方法中, 返回
     def __str__(self):
         return self.mobile
+

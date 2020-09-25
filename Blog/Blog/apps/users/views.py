@@ -6,17 +6,17 @@ from django.db import DatabaseError
 from django.shortcuts import render, redirect
 
 # Create your views here.
-from django.http import HttpResponse, HttpResponseBadRequest
+from django.http import HttpResponseBadRequest
 from django.urls import reverse
 from django.views import View
 from django_redis import get_redis_connection
 
-from settings.dev import QINIU_DOMAIN
+from home.models import ArticleCategory, Article
 from users.models import User
 from django.contrib.auth.mixins import LoginRequiredMixin
-from libs.qiniuyun.tupian import upload_file
+from Blog.utils.tupian import upload_file
 
-
+QINIU_DOMAIN = 'http://tupian.kychina.xin/'
 
 """注册接口"""
 class RegisterView(View):
@@ -248,7 +248,6 @@ class UserCenterView(LoginRequiredMixin, View):
         avatar = request.FILES.get("avatar")
         username = request.POST.get("username", user.username)
         user_desc = request.POST.get('desc', user.user_desc)
-
         file_url = upload_file(avatar)
 
 
@@ -272,11 +271,70 @@ class UserCenterView(LoginRequiredMixin, View):
 
 """写博客接口"""
 class WriteBlogView(LoginRequiredMixin, View):
-    def get(self,request):
-        return render(request, 'write_blog.html')
+    def get(self, request):
 
+        # 获取博客分类信息
+        categories = ArticleCategory.objects.all()
 
+        context = {
+            "categories": categories
+        }
+        return render(request, 'write_blog.html', context=context)
 
+    def post(self, request):
+        """接受参数"""
+        # 标题
+        title = request.POST.get("title")
+
+        # 图片
+        avatar = request.FILES.get("avatar")
+
+        # 栏目分类c
+        category = request.POST.get("category")
+
+        # 标签
+        tags = request.POST.get("tags")
+
+        # 文章摘要
+        sumary = request.POST.get("sumary")
+
+        # 文章内容
+        content = request.POST.get("content")
+
+        # 用户
+        user = request.user
+
+        # 调用七牛云上传
+        avatar = upload_file(avatar)
+        print(type(avatar))
+
+        # 检验参数
+        if not all([title, avatar, category, sumary, content]):
+
+            return HttpResponseBadRequest("缺少必要参数")
+
+        # 断文章分类id数据是否正确
+        try:
+            article_category = ArticleCategory.objects.get(id=category)
+        except ArticleCategory.DoesNotExist:
+            return HttpResponseBadRequest("没有此分类信息")
+
+        # 保存到数据库
+        try:
+            article = Article.objects.create(
+                author=user,
+                image=avatar,
+                category=article_category,
+                tags=tags,
+                title=title,
+                sumary=sumary,
+                content=content
+            )
+        except Exception as e:
+            print(e)
+            return HttpResponseBadRequest("发布失败，稍后再试")
+
+        return redirect(reverse('home:index'))
 
 
 

@@ -1,7 +1,11 @@
 from qiniu import Auth, put_data
 
-from settings.dev import QINIU_ACCESS_KEY, QINIU_SECRET_KEY, QINIU_BUCKET_NAME
-
+# from settings.dev import QINIU_ACCESS_KEY, QINIU_SECRET_KEY, QINIU_BUCKET_NAME
+# 七牛云
+QINIU_ACCESS_KEY = 'QYCyG46WWH87kUAmwsu_Y8b_iMlHewBapNss2xf1'
+QINIU_SECRET_KEY = 'xa57kXjw0YKykh97tk4Kp3UWo6tksX_z4Vr03b9u'
+QINIU_BUCKET_NAME = 'kychina'
+# QINIU_DOMAIN = 'http://tupian.kychina.xin/'
 
 def upload_file(data):
     """

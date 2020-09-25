@@ -50,7 +50,7 @@
             </li>
             <!-- 如果用户未登录，则显示登录按钮 -->
             <li class="nav-item" v-else>
-                <a class="nav-link" href="login.html">登录</a>
+                <a class="nav-link" href="{% url 'users:login' %}">登录</a>
             </li>
         </ul>
     </div>
@@ -80,16 +80,11 @@
                 <!-- 文章栏目 -->
                 <div class="form-group">
                     <label for="category">栏目</label>
-                    <select class="form-control col-3" id="category" name="category">
-                            <option value="none">请选择栏目..</option>
-                        
-                            <option value="1">Django</option>
-                        
-                            <option value="2">Java</option>
-                        
-                            <option value="3">HTML</option>
-                        
-                    </select>
+                        <select class="form-control col-3" id="category" name="category">
+                                {% for category in categories %}
+                                    <option value="{{ category.id }}">{{ category.title }}</option>
+                                {% endfor %}
+                        </select>
                 </div>
 
                 <!-- 文章标签 -->
