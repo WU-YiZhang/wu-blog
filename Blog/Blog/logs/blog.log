@@ -3066,3 +3066,82 @@ INFO 2020-09-24 19:02:18,767 basehttp 154 "GET /center/ HTTP/1.1" 200 4980
 INFO 2020-09-24 19:02:18,809 basehttp 154 "GET /favicon.ico HTTP/1.1" 200 12235
 INFO 2020-09-24 19:02:19,962 basehttp 154 "GET / HTTP/1.1" 200 12235
 INFO 2020-09-24 19:02:20,862 basehttp 154 "GET /favicon.ico HTTP/1.1" 200 12235
+INFO 2020-09-25 08:25:01,820 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-25 08:25:19,289 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-25 08:25:31,302 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-25 08:25:36,054 basehttp 154 "GET / HTTP/1.1" 200 12221
+INFO 2020-09-25 08:25:36,092 basehttp 154 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2020-09-25 08:25:36,093 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2020-09-25 08:25:36,094 basehttp 154 "GET /static/common/jquery.pagination.css HTTP/1.1" 304 0
+INFO 2020-09-25 08:25:36,094 basehttp 154 "GET /static/md_css/monokai.css HTTP/1.1" 304 0
+INFO 2020-09-25 08:25:36,095 basehttp 154 "GET /static/common/common.css HTTP/1.1" 304 0
+INFO 2020-09-25 08:25:36,095 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2020-09-25 08:25:36,096 basehttp 154 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+INFO 2020-09-25 08:25:36,127 basehttp 154 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2020-09-25 08:25:36,131 basehttp 154 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2020-09-25 08:25:36,141 basehttp 154 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2020-09-25 08:25:36,146 basehttp 154 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 304 0
+INFO 2020-09-25 08:25:36,154 basehttp 154 "GET /static/img/1.jpg HTTP/1.1" 304 0
+INFO 2020-09-25 08:25:36,287 autoreload 217 /Users/wudada/Desktop/wu-blog/Blog/Blog/apps/users/views.py changed, reloading.
+INFO 2020-09-25 08:25:36,792 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-25 08:25:37,203 basehttp 154 "GET /favicon.ico HTTP/1.1" 200 12221
+INFO 2020-09-25 08:25:38,820 basehttp 154 "GET /favicon.ico HTTP/1.1" 200 12221
+ERROR 2020-09-25 08:25:40,183 log 228 Internal Server Error: /writeblog/
+Traceback (most recent call last):
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: as_view() takes 1 positional argument but 2 were given
+ERROR 2020-09-25 08:25:40,184 basehttp 154 "GET /writeblog/ HTTP/1.1" 500 63316
+INFO 2020-09-25 08:25:40,339 basehttp 154 "GET /favicon.ico HTTP/1.1" 200 12221
+INFO 2020-09-25 08:26:06,260 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-25 08:26:08,816 basehttp 154 "GET / HTTP/1.1" 200 12221
+INFO 2020-09-25 08:26:11,573 basehttp 154 "GET / HTTP/1.1" 200 12221
+INFO 2020-09-25 08:26:12,401 basehttp 154 "GET / HTTP/1.1" 200 12221
+INFO 2020-09-25 08:26:12,771 basehttp 154 "GET /favicon.ico HTTP/1.1" 200 12221
+INFO 2020-09-25 08:26:12,994 basehttp 154 "GET / HTTP/1.1" 200 12221
+INFO 2020-09-25 08:26:13,686 basehttp 154 "GET /favicon.ico HTTP/1.1" 200 12221
+INFO 2020-09-25 08:26:14,950 basehttp 154 "GET /favicon.ico HTTP/1.1" 200 12221
+INFO 2020-09-25 08:26:16,258 basehttp 154 "GET /writeblog/ HTTP/1.1" 200 6710
+INFO 2020-09-25 08:26:16,299 basehttp 154 "GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 304 0
+INFO 2020-09-25 08:26:16,300 basehttp 154 "GET /static/js/write_blog.js HTTP/1.1" 304 0
+INFO 2020-09-25 08:26:16,316 basehttp 154 "GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 200 690658
+INFO 2020-09-25 08:26:16,943 basehttp 154 "GET /static/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 304 0
+INFO 2020-09-25 08:26:16,944 basehttp 154 "GET /favicon.ico HTTP/1.1" 200 12221
+INFO 2020-09-25 08:26:16,957 basehttp 154 "GET /static/ckeditor/ckeditor/lang/zh-cn.js?t=I3I8 HTTP/1.1" 304 0
+INFO 2020-09-25 08:26:16,958 basehttp 154 "GET /static/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 304 0
+INFO 2020-09-25 08:26:16,968 basehttp 154 "GET /static/ckeditor/ckeditor/styles.js?t=I3I8 HTTP/1.1" 304 0
+INFO 2020-09-25 08:26:16,982 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/scayt/dialogs/dialog.css HTTP/1.1" 304 0
+INFO 2020-09-25 08:26:16,983 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/tableselection/styles/tableselection.css HTTP/1.1" 304 0
+INFO 2020-09-25 08:26:16,984 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css HTTP/1.1" 304 0
+INFO 2020-09-25 08:26:16,984 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css HTTP/1.1" 304 0
+INFO 2020-09-25 08:26:16,988 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/copyformatting/styles/copyformatting.css HTTP/1.1" 304 0
+INFO 2020-09-25 08:26:17,019 basehttp 154 "GET /static/ckeditor/ckeditor/skins/moono-lisa/icons.png?t=95e5d83 HTTP/1.1" 304 0
+INFO 2020-09-25 08:26:17,038 basehttp 154 "GET /static/ckeditor/ckeditor/contents.css?t=I3I8 HTTP/1.1" 304 0
+INFO 2020-09-25 08:29:11,138 autoreload 217 /Users/wudada/Desktop/wu-blog/Blog/Blog/apps/users/url.py changed, reloading.
+INFO 2020-09-25 08:29:11,585 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-25 08:29:22,062 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/magicline/images/icon.png?t=I3I8 HTTP/1.1" 200 133
+INFO 2020-09-25 08:32:14,744 basehttp 154 "GET /writeblog/ HTTP/1.1" 200 6717
+INFO 2020-09-25 08:32:15,602 basehttp 154 "GET /favicon.ico HTTP/1.1" 200 12221
+INFO 2020-09-25 08:32:18,140 basehttp 154 "GET /favicon.ico HTTP/1.1" 200 12221
+INFO 2020-09-25 08:32:19,036 basehttp 154 "GET /center/ HTTP/1.1" 200 4970
+INFO 2020-09-25 08:32:19,062 basehttp 154 "GET /static/js/center.js HTTP/1.1" 304 0
+INFO 2020-09-25 08:32:19,093 basehttp 154 "GET /favicon.ico HTTP/1.1" 200 12221
+INFO 2020-09-25 08:32:22,710 basehttp 154 "GET /favicon.ico HTTP/1.1" 200 12221
+INFO 2020-09-25 08:32:27,190 basehttp 154 "GET /center/write_blog.html HTTP/1.1" 200 4970
+INFO 2020-09-25 08:32:27,239 basehttp 154 "GET /favicon.ico HTTP/1.1" 200 12221
+INFO 2020-09-25 08:34:12,957 basehttp 154 "GET /favicon.ico HTTP/1.1" 200 12221
+INFO 2020-09-25 08:34:18,062 basehttp 154 "GET /center/ HTTP/1.1" 200 4970
+INFO 2020-09-25 08:34:18,114 basehttp 154 "GET /favicon.ico HTTP/1.1" 200 12221
+INFO 2020-09-25 08:34:23,425 basehttp 154 "GET / HTTP/1.1" 200 12221
+INFO 2020-09-25 08:34:24,407 basehttp 154 "GET /favicon.ico HTTP/1.1" 200 12221
+INFO 2020-09-25 08:35:21,526 basehttp 154 "GET / HTTP/1.1" 200 12221
+INFO 2020-09-25 08:35:22,424 basehttp 154 "GET /favicon.ico HTTP/1.1" 200 12221
+INFO 2020-09-25 08:35:24,851 basehttp 154 "GET / HTTP/1.1" 200 12221
+INFO 2020-09-25 08:35:25,548 basehttp 154 "GET /favicon.ico HTTP/1.1" 200 12221
+INFO 2020-09-25 08:35:39,538 basehttp 154 "GET / HTTP/1.1" 200 12220
+INFO 2020-09-25 08:35:40,242 basehttp 154 "GET /favicon.ico HTTP/1.1" 200 12220
+INFO 2020-09-25 08:35:53,453 basehttp 154 "GET /favicon.ico HTTP/1.1" 200 12220

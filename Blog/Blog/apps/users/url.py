@@ -9,7 +9,7 @@
 '''
 from django.conf.urls import url
 # from django.urls import path
-from users.views import RegisterView, LogInView, LogoutView, ForgetPasswordView, UserCenterView
+from users.views import RegisterView, LogInView, LogoutView, ForgetPasswordView, UserCenterView, WriteBlogView
 
 urlpatterns = [
     # 注册路由
@@ -25,6 +25,9 @@ urlpatterns = [
     url(r'forgetpassword/', ForgetPasswordView.as_view(), name='forgetpassword'),
 
     # 页面展示接口
-    url(r'center/', UserCenterView.as_view(), name='center')
+    url(r'center/', UserCenterView.as_view(), name='center'),
+
+    # 写文章页面展示
+    url(r'writeblog/', WriteBlogView.as_view(), name='writeblog'),
 
 ]

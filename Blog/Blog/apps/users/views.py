@@ -270,6 +270,12 @@ class UserCenterView(LoginRequiredMixin, View):
         return response
 
 
+"""写博客接口"""
+class WriteBlogView(LoginRequiredMixin, View):
+    def get(self,request):
+        return render(request, 'write_blog.html')
+
+
 
 
 
